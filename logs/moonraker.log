@@ -3393,3 +3393,5 @@ ConnectionResetError: [Errno 104] Connection reset by peer
 2024-07-19 17:48:49,820 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-07-19 17:48:50,083 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-07-19 17:48:50,829 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-07-19 17:50:19,852 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-07-19 17:51:19,855 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
