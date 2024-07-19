@@ -169,3 +169,21 @@ Git Repo fluidd-config: No warnings detected
 Git Repo klipper_tmc_autotune: No warnings detected
 Klipper Version: v0.12.0-267-g12cd1d9e-dirty
 2024-07-19 00:30:04,671 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-07-19 08:14:38,844 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-07-19 08:14:38,898 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-07-19 08:14:38,942 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-07-19 08:14:39,853 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-07-19 08:14:43,113 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-07-19 08:14:43,115 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-07-19 08:14:43,364 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-07-19 08:14:43,638 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-07-19 08:14:44,128 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed']
+2024-07-19 08:18:26,803 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 0.000 -8.000 255.000 [0.000]
+2024-07-19 08:18:29,087 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 0.000 -8.000 255.000 [0.000]
+2024-07-19 08:18:40,555 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 0.000 -8.000 251.000 [0.000]
+2024-07-19 08:21:14,301 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Endstop z still triggered after retract
+2024-07-19 08:21:42,077 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Endstop z still triggered after retract
+2024-07-19 08:23:10,316 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-07-19 08:24:09,359 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 117.000 1174.000 15.000 [0.000]
+2024-07-19 08:27:04,779 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-07-19 08:30:33,051 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
