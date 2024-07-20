@@ -1579,3 +1579,4 @@ Content-Type: multipart/form-data; boundary="boundary_.oOo._TDA4eBQC8JnHQBcpEeyP
 2024-07-20 14:58:19,613 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_din_rail_mount_G9_2024-07-20_14:57:09.gcode
 2024-07-20 14:58:19,633 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 7078.49ms
 2024-07-20 14:58:19,804 [job_state.py:_status_update()] - Job Started: Marta_GABS_din_rail_mount_G9_2024-07-20_14:57:09.gcode
+2024-07-20 16:05:31,640 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
