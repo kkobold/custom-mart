@@ -664,3 +664,9 @@ Content-Type: multipart/form-data; boundary="boundary_.oOo._A7u/rZy3/p4f4gO7zHki
 2024-07-20 08:58:48,796 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_[a]_housing_front_x1_rev15_2024-07-20_08:57:29.gcode
 2024-07-20 08:58:48,817 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 928.85ms
 2024-07-20 08:58:48,956 [job_state.py:_status_update()] - Job Started: Marta_GABS_[a]_housing_front_x1_rev15_2024-07-20_08:57:29.gcode
+2024-07-20 09:58:35,704 [websockets.py:on_close()] - Websocket Closed: ID: 281473033363904 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 0.69
+2024-07-20 09:58:44,230 [application.py:log_request()] - 101 GET /websocket?token=DTQLSS3IMDU6JU77Z5RWXJLD5V7JPIFY (192.168.2.183) [_TRUSTED_USER_] 2.64ms
+2024-07-20 09:58:44,230 [websockets.py:open()] - Websocket Opened: ID: 281473031338016, Proxied: False, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15, Host Name: 192.168.2.135
+2024-07-20 09:58:44,236 [websockets.py:_handle_identify()] - Websocket 281473031338016 Client Identified - Name: fluidd, Version: 1.30.1-62fe404, Type: web
+2024-07-20 09:58:44,237 [file_manager.py:get_file_list()] - Updating File List <config>...
+2024-07-20 11:00:04,955 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
