@@ -5126,6 +5126,7 @@ launch_args: /home/kkobold/moonraker-env/bin/python /home/kkobold/moonraker/moon
 msgspec_enabled: False
 uvloop_enabled: False
 2024-07-21 02:17:07,153 [confighelper.py:read_file()] - Configuration File '/home/kkobold/printer_data/config/moonraker.conf' parsed, total size: 1415 B
+<<<<<<< HEAD
 2024-07-21 0-------------------- Log Start | Sun Jul 21 05:17:07 2024 --------------------
 platform: Linux-5.16.17-sun50iw6-aarch64-with-glibc2.31
 data_path: /home/kkobold/printer_data
@@ -5152,6 +5153,9 @@ msgspec_enabled: False
 uvloop_enabled: False
 2024-07-21 02:17:07,116 [confighelper.py:read_file()] - Configuration File '/home/kkobold/printer_data/config/moonraker.conf' parsed, total size: 1415 B
 2024-07-21 02:17:07,117 [server.py:add_log_rollover_item()] - 
+=======
+2024-07-21 02:17:07,154 [server.py:add_log_rollover_item()] - 
+>>>>>>> 27e4611d3868db77743b7ca449f8946218a7312b
 #################### Moonraker Configuration ####################
 
 [server]
@@ -5228,6 +5232,7 @@ primary_branch = main
 All Configuration Files:
 /home/kkobold/printer_data/config/moonraker.conf
 #################################################################
+<<<<<<< HEAD
 2024-07-21 02:17:07,348 [server.py:load_component()] - Component (secrets) loaded
 2024-07-21 02:17:07,374 [server.py:load_component()] - Component (template) loaded
 2024-07-21 02:17:07,398 [server.py:load_component()] - Component (klippy_connection) loaded
@@ -5241,6 +5246,21 @@ All Configuration Files:
 2024-07-21 02:17:08,811 [server.py:load_component()] - Component (file_manager) loaded
 2024-07-21 02:17:08,857 [database.py:register_table()] - Found registered table authorized_users
 2024-07-21 02:17:08,862 [authorization.py:__init__()] - Authorization Configuration Loaded
+=======
+2024-07-21 02:17:07,520 [server.py:load_component()] - Component (secrets) loaded
+2024-07-21 02:17:07,539 [server.py:load_component()] - Component (template) loaded
+2024-07-21 02:17:07,556 [server.py:load_component()] - Component (klippy_connection) loaded
+2024-07-21 02:17:08,469 [server.py:load_component()] - Component (application) loaded
+2024-07-21 02:17:08,511 [server.py:load_component()] - Component (websockets) loaded
+2024-07-21 02:17:08,614 [server.py:load_component()] - Component (dbus_manager) loaded
+2024-07-21 02:17:08,653 [server.py:add_log_rollover_item()] - Loading Sqlite database provider. Sqlite Version: 3.34.1
+2024-07-21 02:17:08,661 [server.py:add_log_rollover_item()] - Unsafe Shutdown Count: 16
+2024-07-21 02:17:08,670 [server.py:load_component()] - Component (database) loaded
+2024-07-21 02:17:08,730 [file_manager.py:__init__()] - Using File System Observer: inotify
+2024-07-21 02:17:08,774 [server.py:load_component()] - Component (file_manager) loaded
+2024-07-21 02:17:08,815 [database.py:register_table()] - Found registered table authorized_users
+2024-07-21 02:17:08,820 [authorization.py:__init__()] - Authorization Configuration Loaded
+>>>>>>> 27e4611d3868db77743b7ca449f8946218a7312b
 Trusted Clients:
 10.0.0.0/8
 127.0.0.0/8
@@ -5256,9 +5276,15 @@ CORS Domains:
 .*://localhost:.*
 .*://my\.mainsail\.xyz
 .*://app\.fluidd\.xyz
+<<<<<<< HEAD
 2024-07-21 02:17:08,872 [server.py:load_component()] - Component (authorization) loaded
 2024-07-21 02:17:08,882 [server.py:load_component()] - Component (klippy_apis) loaded
 2024-07-21 02:17:09,204 [server.py:add_log_rollover_item()] - 
+=======
+2024-07-21 02:17:08,836 [server.py:load_component()] - Component (authorization) loaded
+2024-07-21 02:17:08,849 [server.py:load_component()] - Component (klippy_apis) loaded
+2024-07-21 02:17:09,202 [server.py:add_log_rollover_item()] - 
+>>>>>>> 27e4611d3868db77743b7ca449f8946218a7312b
 System Info:
 
 ***python***
@@ -5307,6 +5333,7 @@ System Info:
   crowsnest
   octoeverywhere
   ratos-configurator
+<<<<<<< HEAD
 2024-07-21 02:17:09,216 [server.py:load_component()] - Component (shell_command) loaded
 2024-07-21 02:17:09,217 [machine.py:__init__()] - Using System Provider: systemd_dbus
 2024-07-21 02:17:09,239 [server.py:add_log_rollover_item()] - Module libcamera unavailble, import failed
@@ -5337,13 +5364,49 @@ System Info:
 2024-07-21 02:17:10,099 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.2.135
 2024-07-21 02:17:10,103 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.2.135
 2024-07-21 02:17:10,193 [server.py:add_log_rollover_item()] - 
+=======
+2024-07-21 02:17:09,207 [server.py:load_component()] - Component (shell_command) loaded
+2024-07-21 02:17:09,207 [machine.py:__init__()] - Using System Provider: systemd_dbus
+2024-07-21 02:17:09,227 [server.py:add_log_rollover_item()] - Module libcamera unavailble, import failed
+2024-07-21 02:17:09,228 [server.py:load_component()] - Component (machine) loaded
+2024-07-21 02:17:09,235 [server.py:load_component()] - Component (data_store) loaded
+2024-07-21 02:17:09,239 [proc_stats.py:__init__()] - Unable to find 'vcgencmd', throttle checking disabled
+2024-07-21 02:17:09,241 [server.py:load_component()] - Component (proc_stats) loaded
+2024-07-21 02:17:09,245 [server.py:load_component()] - Component (job_state) loaded
+2024-07-21 02:17:09,256 [server.py:load_component()] - Component (job_queue) loaded
+2024-07-21 02:17:09,263 [database.py:register_table()] - Found registered table job_history
+2024-07-21 02:17:09,264 [database.py:register_table()] - Found registered table job_totals
+2024-07-21 02:17:09,270 [server.py:load_component()] - Component (history) loaded
+2024-07-21 02:17:09,286 [server.py:load_component()] - Component (http_client) loaded
+2024-07-21 02:17:09,296 [server.py:load_component()] - Component (announcements) loaded
+2024-07-21 02:17:09,303 [server.py:load_component()] - Component (webcam) loaded
+2024-07-21 02:17:09,309 [server.py:load_component()] - Component (extensions) loaded
+2024-07-21 02:17:09,403 [base_deploy.py:log_info()] - Git Repo moonraker: Detected virtualenv: /home/kkobold/moonraker-env
+2024-07-21 02:17:09,410 [base_deploy.py:log_info()] - Git Repo klipper: Detected virtualenv: /home/kkobold/klippy-env
+2024-07-21 02:17:09,437 [server.py:load_component()] - Component (update_manager) loaded
+2024-07-21 02:17:09,450 [server.py:load_component()] - Component (octoprint_compat) loaded
+2024-07-21 02:17:09,453 [server.py:_initialize_component()] - Performing Component Post Init: [dbus_manager]
+2024-07-21 02:17:09,519 [server.py:_initialize_component()] - Performing Component Post Init: [database]
+2024-07-21 02:17:09,532 [server.py:_initialize_component()] - Performing Component Post Init: [file_manager]
+2024-07-21 02:17:09,619 [server.py:_initialize_component()] - Performing Component Post Init: [authorization]
+2024-07-21 02:17:09,626 [server.py:_initialize_component()] - Performing Component Post Init: [machine]
+2024-07-21 02:17:09,629 [machine.py:validation_init()] - Installation version in database up to date
+2024-07-21 02:17:10,044 [machine.py:check_virt_status()] - No Virtualization Detected
+2024-07-21 02:17:10,061 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2024-07-21 02:17:10,156 [server.py:add_log_rollover_item()] - 
+>>>>>>> 27e4611d3868db77743b7ca449f8946218a7312b
 Systemd unit moonraker.service:
 unit_name: moonraker.service
 is_default: True
 manager: systemd
 Properties:
+<<<<<<< HEAD
 **Requires=['system.slice', '-.mount', 'sysinit.target', 'network-online.target']
 **After=['network-online.target', 'systemd-journald.socket', 'system.slice', '-.mount', 'basic.target', 'sysinit.target']
+=======
+**Requires=['network-online.target', '-.mount', 'sysinit.target', 'system.slice']
+**After=['network-online.target', '-.mount', 'system.slice', 'basic.target', 'systemd-journald.socket', 'sysinit.target']
+>>>>>>> 27e4611d3868db77743b7ca449f8946218a7312b
 **SupplementaryGroups=['moonraker-admin']
 **EnvironmentFiles=/home/kkobold/printer_data/systemd/moonraker.env
 **ExecStart=/home/kkobold/moonraker-env/bin/python $MOONRAKER_ARGS
@@ -5351,6 +5414,7 @@ Properties:
 **FragmentPath=/etc/systemd/system/moonraker.service
 **Description=API Server for Klipper SV1
 **User=kkobold
+<<<<<<< HEAD
 2024-07-21 02:17:10,194 [server.py:_initialize_component()] - Performing Component Post Init: [proc_stats]
 2024-07-21 02:17:10,194 [server.py:_initialize_component()] - Performing Component Post Init: [history]
 2024-07-21 02:17:10,208 [server.py:_initialize_component()] - Performing Component Post Init: [announcements]
@@ -5359,13 +5423,28 @@ Properties:
 2024-07-21 02:17:10,235 [server.py:_initialize_component()] - Performing Component Post Init: [klippy_connection]
 2024-07-21 02:17:10,235 [server.py:_initialize_component()] - Performing Component Post Init: [update_manager]
 2024-07-21 02:17:10,243 [server.py:add_log_rollover_item()] - 
+=======
+2024-07-21 02:17:10,157 [server.py:_initialize_component()] - Performing Component Post Init: [proc_stats]
+2024-07-21 02:17:10,157 [server.py:_initialize_component()] - Performing Component Post Init: [history]
+2024-07-21 02:17:10,169 [server.py:_initialize_component()] - Performing Component Post Init: [announcements]
+2024-07-21 02:17:10,191 [server.py:_initialize_component()] - Performing Component Post Init: [webcam]
+2024-07-21 02:17:10,198 [machine.py:_find_public_ip()] - Detected Local IP: fe80::4bfd:b982:4d38:bd19
+2024-07-21 02:17:10,200 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://[fe80::4bfd:b982:4d38:bd19]
+2024-07-21 02:17:10,201 [server.py:_initialize_component()] - Performing Component Post Init: [klippy_connection]
+2024-07-21 02:17:10,202 [server.py:_initialize_component()] - Performing Component Post Init: [update_manager]
+2024-07-21 02:17:10,207 [server.py:add_log_rollover_item()] - 
+>>>>>>> 27e4611d3868db77743b7ca449f8946218a7312b
 Systemd unit klipper.service:
 unit_name: klipper.service
 is_default: True
 manager: systemd
 Properties:
 **Requires=['sysinit.target', '-.mount', 'system.slice']
+<<<<<<< HEAD
 **After=['systemd-journald.socket', 'system.slice', 'sysinit.target', '-.mount', 'klipper-mcu.service', 'network-online.target', 'basic.target']
+=======
+**After=['-.mount', 'basic.target', 'sysinit.target', 'klipper-mcu.service', 'network-online.target', 'systemd-journald.socket', 'system.slice']
+>>>>>>> 27e4611d3868db77743b7ca449f8946218a7312b
 **SupplementaryGroups=[]
 **EnvironmentFiles=/home/kkobold/printer_data/systemd/klipper.env
 **ExecStart=/home/kkobold/klippy-env/bin/python $KLIPPER_ARGS
@@ -5373,8 +5452,13 @@ Properties:
 **FragmentPath=/etc/systemd/system/klipper.service
 **Description=Klipper 3D Printer Firmware SV1
 **User=kkobold
+<<<<<<< HEAD
 2024-07-21 02:17:10,454 [base_deploy.py:log_info()] - PackageDeploy: PackageKit Provider Configured
 2024-07-21 02:17:10,457 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
+=======
+2024-07-21 02:17:10,421 [base_deploy.py:log_info()] - PackageDeploy: PackageKit Provider Configured
+2024-07-21 02:17:10,424 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
+>>>>>>> 27e4611d3868db77743b7ca449f8946218a7312b
 Owner: Arksine
 Repository Name: moonraker
 Path: /home/kkobold/moonraker
@@ -5395,7 +5479,11 @@ Is Shallow: False
 Commits Behind Count: 0
 Diverged: False
 Pinned Commit: None
+<<<<<<< HEAD
 2024-07-21 02:17:10,462 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
+=======
+2024-07-21 02:17:10,427 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
+>>>>>>> 27e4611d3868db77743b7ca449f8946218a7312b
 Owner: Klipper3d
 Repository Name: klipper
 Path: /home/kkobold/klipper
@@ -5416,7 +5504,11 @@ Is Shallow: False
 Commits Behind Count: 0
 Diverged: False
 Pinned Commit: None
+<<<<<<< HEAD
 2024-07-21 02:17:10,466 [git_deploy.py:log_repo_info()] - Git Repo fluidd-config Detected:
+=======
+2024-07-21 02:17:10,432 [git_deploy.py:log_repo_info()] - Git Repo fluidd-config Detected:
+>>>>>>> 27e4611d3868db77743b7ca449f8946218a7312b
 Owner: fluidd-core
 Repository Name: fluidd-config
 Path: /home/kkobold/fluidd-config
@@ -5437,7 +5529,11 @@ Is Shallow: False
 Commits Behind Count: 0
 Diverged: False
 Pinned Commit: None
+<<<<<<< HEAD
 2024-07-21 02:17:10,473 [base_deploy.py:log_info()] - Web Client fluidd: Detected
+=======
+2024-07-21 02:17:10,440 [base_deploy.py:log_info()] - Web Client fluidd: Detected
+>>>>>>> 27e4611d3868db77743b7ca449f8946218a7312b
 Repo: fluidd-core/fluidd
 Channel: stable
 Path: /home/kkobold/fluidd
@@ -5451,7 +5547,11 @@ Download Size: 3726613
 Content Type: application/zip
 Rollback Version: v1.30.1
 Rollback Repo: fluidd-core/fluidd
+<<<<<<< HEAD
 2024-07-21 02:17:10,477 [git_deploy.py:log_repo_info()] - Git Repo klipper_tmc_autotune Detected:
+=======
+2024-07-21 02:17:10,445 [git_deploy.py:log_repo_info()] - Git Repo klipper_tmc_autotune Detected:
+>>>>>>> 27e4611d3868db77743b7ca449f8946218a7312b
 Owner: andrewmcgr
 Repository Name: klipper_tmc_autotune
 Path: /home/kkobold/klipper_tmc_autotune
@@ -5472,7 +5572,11 @@ Is Shallow: False
 Commits Behind Count: 0
 Diverged: False
 Pinned Commit: None
+<<<<<<< HEAD
 2024-07-21 02:17:10,481 [git_deploy.py:log_repo_info()] - Git Repo led_effect Detected:
+=======
+2024-07-21 02:17:10,449 [git_deploy.py:log_repo_info()] - Git Repo led_effect Detected:
+>>>>>>> 27e4611d3868db77743b7ca449f8946218a7312b
 Owner: julianschill
 Repository Name: klipper-led_effect
 Path: /home/kkobold/klipper-led_effect
@@ -5493,7 +5597,11 @@ Is Shallow: False
 Commits Behind Count: 0
 Diverged: False
 Pinned Commit: None
+<<<<<<< HEAD
 2024-07-21 02:17:10,485 [git_deploy.py:log_repo_info()] - Git Repo Klipper-Adaptive-Meshing-Purging Detected:
+=======
+2024-07-21 02:17:10,454 [git_deploy.py:log_repo_info()] - Git Repo Klipper-Adaptive-Meshing-Purging Detected:
+>>>>>>> 27e4611d3868db77743b7ca449f8946218a7312b
 Owner: kyleisah
 Repository Name: Klipper-Adaptive-Meshing-Purging
 Path: /home/kkobold/Klipper-Adaptive-Meshing-Purging
@@ -5514,6 +5622,7 @@ Is Shallow: False
 Commits Behind Count: 0
 Diverged: False
 Pinned Commit: None
+<<<<<<< HEAD
 2024-07-21 02:17:10,486 [base_deploy.py:log_info()] - PackageKit: Next refresh in: 5 Days, 21 Hours, 21 Minutes, 25 Seconds
 2024-07-21 02:17:10,487 [base_deploy.py:log_info()] - Git Repo moonraker: Next refresh in: 4 Days, 16 Hours, 46 Minutes, 50 Seconds
 2024-07-21 02:17:10,487 [base_deploy.py:log_info()] - Git Repo klipper: Next refresh in: 4 Days, 16 Hours, 46 Minutes, 51 Seconds
@@ -5775,13 +5884,33 @@ Properties:
 2024-07-21 02:17:10,359 [server.py:_initialize_component()] - Performing Component Post Init: [klippy_connection]
 2024-07-21 02:17:10,360 [server.py:_initialize_component()] - Performing Component Post Init: [update_manager]
 2024-07-21 02:17:10,365 [server.py:add_log_rollover_item()] - 
+=======
+2024-07-21 02:17:10,455 [base_deploy.py:log_info()] - PackageKit: Next refresh in: 5 Days, 21 Hours, 21 Minutes, 25 Seconds
+2024-07-21 02:17:10,455 [base_deploy.py:log_info()] - Git Repo moonraker: Next refresh in: 4 Days, 16 Hours, 46 Minutes, 50 Seconds
+2024-07-21 02:17:10,455 [base_deploy.py:log_info()] - Git Repo klipper: Next refresh in: 4 Days, 16 Hours, 46 Minutes, 51 Seconds
+2024-07-21 02:17:10,455 [base_deploy.py:log_info()] - Git Repo fluidd-config: Next refresh in: 4 Days, 16 Hours, 56 Minutes, 22 Seconds
+2024-07-21 02:17:10,455 [base_deploy.py:log_info()] - Web Client fluidd: Next refresh in: 4 Days, 16 Hours, 56 Minutes, 22 Seconds
+2024-07-21 02:17:10,455 [base_deploy.py:log_info()] - Git Repo klipper_tmc_autotune: Next refresh in: 4 Days, 19 Hours, 1 Second
+2024-07-21 02:17:10,455 [base_deploy.py:log_info()] - Git Repo led_effect: Next refresh in: 5 Days, 17 Hours, 29 Minutes, 20 Seconds
+2024-07-21 02:17:10,455 [base_deploy.py:log_info()] - Git Repo Klipper-Adaptive-Meshing-Purging: Next refresh in: 6 Days, 11 Hours, 2 Seconds
+2024-07-21 02:17:10,461 [extensions.py:start_unix_server()] - Creating Unix Domain Socket at '/home/kkobold/printer_data/comms/moonraker.sock'
+2024-07-21 02:17:10,463 [server.py:start_server()] - Starting Moonraker on (0.0.0.0, 7125), Hostname: gatekeeper
+2024-07-21 02:17:10,465 [application.py:listen()] - SSL Certificate/Key not configured, aborting HTTPS Server startup
+2024-07-21 02:17:10,717 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-07-21 02:17:10,817 [server.py:add_log_rollover_item()] - 
+>>>>>>> 27e4611d3868db77743b7ca449f8946218a7312b
 Systemd unit klipper.service:
 unit_name: klipper.service
 is_default: True
 manager: systemd
 Properties:
+<<<<<<< HEAD
 **Requires=['-.mount', 'sysinit.target', 'system.slice']
 **After=['network-online.target', 'sysinit.target', '-.mount', 'systemd-journald.socket', 'basic.target', 'system.slice', 'klipper-mcu.service']
+=======
+**Requires=['-.mount', 'system.slice', 'sysinit.target']
+**After=['klipper-mcu.service', '-.mount', 'basic.target', 'system.slice', 'systemd-journald.socket', 'sysinit.target', 'network-online.target']
+>>>>>>> 27e4611d3868db77743b7ca449f8946218a7312b
 **SupplementaryGroups=[]
 **EnvironmentFiles=/home/kkobold/printer_data/systemd/klipper.env
 **ExecStart=/home/kkobold/klippy-env/bin/python $KLIPPER_ARGS
@@ -5789,6 +5918,7 @@ Properties:
 **FragmentPath=/etc/systemd/system/klipper.service
 **Description=Klipper 3D Printer Firmware SV1
 **User=kkobold
+<<<<<<< HEAD
 2024-07-21 02:17:10,586 [base_deploy.py:log_info()] - PackageDeploy: PackageKit Provider Configured
 2024-07-21 02:17:10,589 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
 Owner: Arksine
@@ -8960,3 +9090,13 @@ CPU Temperature: 40.856
 2024-07-21 15:26:08,889 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-07-21 15:26:09,151 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-07-21 15:26:09,646 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed']
+=======
+2024-07-21 02:17:11,073 [server.py:add_log_rollover_item()] - Klipper Version: v0.12.0-267-g12cd1d9e-dirty
+2024-07-21 02:17:13,166 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-07-21 02:17:13,199 [application.py:log_request()] - 101 GET /websocket?token=5NW4NEAGTISFTZDHXHUHTI7NFWNCL3HM (192.168.2.183) [_TRUSTED_USER_] 3.25ms
+2024-07-21 02:17:13,200 [websockets.py:open()] - Websocket Opened: ID: 281473236632240, Proxied: False, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15, Host Name: 192.168.2.135
+2024-07-21 02:17:13,203 [websockets.py:_handle_identify()] - Websocket 281473236632240 Client Identified - Name: fluidd, Version: 1.30.1-62fe404, Type: web
+2024-07-21 02:17:13,204 [file_manager.py:get_file_list()] - Updating File List <config>...
+2024-07-21 10:07:55,379 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.2.135
+2024-07-21 10:07:55,383 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.2.135
+>>>>>>> 27e4611d3868db77743b7ca449f8946218a7312b
