@@ -189,3 +189,13 @@ Git Repo led_effect: No warnings detected
 Git Repo Klipper-Adaptive-Meshing-Purging: No warnings detected
 Klipper Version: v0.12.0-267-g12cd1d9e-dirty
 2024-07-22 11:53:03,293 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.2.135
+2024-07-22 11:53:23,289 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.2.135
+2024-07-22 11:54:21,860 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-07-22 11:54:21,865 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-07-22 11:54:21,872 [klippy_connection.py:_check_ready()] - 
+mcu 'mcu': Unable to connect
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
