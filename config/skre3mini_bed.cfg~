@@ -1,0 +1,23 @@
+[screws_tilt_adjust]
+screw1: 10,-14
+screw1_name: front left screw
+screw2: 10, 157
+screw2_name: rear left screw
+screw3: 182, 157
+screw3_name: rear right screw
+screw4: 182, -14
+screw4_name: front right screw
+screw_thread: CW-M4
+horizontal_move_z: 7 
+
+[heater_bed]
+#heater_pin: PA2
+heater_pin: pi:gpio3 
+sensor_type: EPCOS 100K B57560G104F
+sensor_pin: PC4
+control: pid
+pid_Kp: 54.027
+pid_Ki: 0.770
+pid_Kd: 948.182
+min_temp: 0
+max_temp: 130
