@@ -235,3 +235,43 @@ Content-Type: multipart/form-data; boundary="boundary_.oOo._q7XHoEyZ2DIRIwtABPBo
 2024-07-27 00:24:25,965 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 5894.31ms
 2024-07-27 00:24:25,979 [job_state.py:_status_update()] - Job Started: Marta_GABS_RobotRogue%20-%20SKR%20Mini%20E3%20v3%20to%20DIN%20Clip_2024-07-27_00:24:17.gcode
 2024-07-27 00:25:52,983 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-07-27 01:33:29,213 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-07-27 02:43:47,561 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-07-27 02:43:47,564 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 503, Message: Klippy Disconnected
+2024-07-27 02:43:47,615 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-07-27 02:43:47,678 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-07-27 02:43:48,574 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-07-27 02:43:51,184 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-07-27 02:43:51,186 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-07-27 02:43:51,190 [klippy_connection.py:_check_ready()] - 
+MCU 'mcu' shutdown: Can't reset time when stepper active
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Printer is shutdown
+
+2024-07-27 02:44:09,580 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-07-27 02:44:09,621 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-07-27 02:44:10,842 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-07-27 02:44:13,722 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-07-27 02:44:13,724 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-07-27 02:44:13,973 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-07-27 02:44:14,305 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-07-27 02:44:14,737 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-07-27 02:45:25,499 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-07-27 02:46:25,502 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-07-27 02:47:25,504 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 180.01 seconds
+2024-07-27 02:48:02,211 [application.py:prepare()] - Upload Request Received from 192.168.2.183
+Content-Type: multipart/form-data; boundary="boundary_.oOo._XpjQj0qG1LVDJWAjVFpEBAHqShUNe9N7"
+2024-07-27 02:48:02,312 [application.py:post()] - Processing Uploaded File: Marta_GABS_RobotRogue%20-%20SKR%20Mini%20E3%20v3%20to%20DIN%20Clip_2024-07-27_02:48:00.ufp
+2024-07-27 02:48:02,667 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is enabled
+
+2024-07-27 02:48:02,869 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2024-07-27 02:48:02,871 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Marta_GABS_RobotRogue%20-%20SKR%20Mini%20E3%20v3%20to%20DIN%20Clip_2024-07-27_02:48:00.gcode, sliced by Cura
+
+2024-07-27 02:48:07,568 [shell_command.py:_check_proc_success()] - Command (/home/kkobold/moonraker-env/bin/python /home/kkobold/moonraker/moonraker/components/file_manager/metadata.py -p /home/kkobold/printer_data/gcodes -f "Marta_GABS_RobotRogue%20-%20SKR%20Mini%20E3%20v3%20to%20DIN%20Clip_2024-07-27_02:48:00.gcode" -u "/tmp/moonraker.upload-17387.mru" --check-objects) successfully finished
+2024-07-27 02:48:07,569 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_RobotRogue%20-%20SKR%20Mini%20E3%20v3%20to%20DIN%20Clip_2024-07-27_02:48:00.gcode
+2024-07-27 02:48:07,592 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 5382.87ms
+2024-07-27 02:48:07,601 [job_state.py:_status_update()] - Job Started: Marta_GABS_RobotRogue%20-%20SKR%20Mini%20E3%20v3%20to%20DIN%20Clip_2024-07-27_02:48:00.gcode
+2024-07-27 03:48:29,247 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
