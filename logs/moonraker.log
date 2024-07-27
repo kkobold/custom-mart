@@ -300,3 +300,33 @@ Content-Type: multipart/form-data; boundary="boundary_.oOo._3zzugEorLRw1ymv7Crnj
 2024-07-27 08:54:29,930 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_RobotRogue%20-%20SKR%20Mini%20E3%20v3%20to%20DIN%20Clip_2024-07-27_08:46:09.gcode
 2024-07-27 08:54:29,954 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 3072.10ms
 2024-07-27 08:54:30,051 [job_state.py:_status_update()] - Job Started: Marta_GABS_RobotRogue%20-%20SKR%20Mini%20E3%20v3%20to%20DIN%20Clip_2024-07-27_08:46:09.gcode
+2024-07-27 09:37:49,612 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-07-27 09:38:49,615 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-07-27 09:39:38,216 [application.py:prepare()] - Upload Request Received from 192.168.2.183
+Content-Type: multipart/form-data; boundary="boundary_.oOo._BrorKV9oED2peszqNOlHMqlhxMKQ2UGw"
+2024-07-27 09:39:38,280 [application.py:post()] - Processing Uploaded File: Marta_GABS_RobotRogue%20-%20SKR%20Mini%20E3%20v3%20to%20DIN%20Clip_2024-07-27_09:39:02.ufp
+2024-07-27 09:39:38,657 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is enabled
+
+2024-07-27 09:39:38,809 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2024-07-27 09:39:38,811 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Marta_GABS_RobotRogue%20-%20SKR%20Mini%20E3%20v3%20to%20DIN%20Clip_2024-07-27_09:39:02.gcode, sliced by Cura
+
+2024-07-27 09:39:41,303 [shell_command.py:_check_proc_success()] - Command (/home/kkobold/moonraker-env/bin/python /home/kkobold/moonraker/moonraker/components/file_manager/metadata.py -p /home/kkobold/printer_data/gcodes -f "Marta_GABS_RobotRogue%20-%20SKR%20Mini%20E3%20v3%20to%20DIN%20Clip_2024-07-27_09:39:02.gcode" -u "/tmp/moonraker.upload-42083.mru" --check-objects) successfully finished
+2024-07-27 09:39:41,303 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_RobotRogue%20-%20SKR%20Mini%20E3%20v3%20to%20DIN%20Clip_2024-07-27_09:39:02.gcode
+2024-07-27 09:39:49,618 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 180.01 seconds
+2024-07-27 09:40:06,501 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 28286.60ms
+2024-07-27 09:40:06,642 [job_state.py:_status_update()] - Job Started: Marta_GABS_RobotRogue%20-%20SKR%20Mini%20E3%20v3%20to%20DIN%20Clip_2024-07-27_09:39:02.gcode
+2024-07-27 10:36:54,424 [application.py:prepare()] - Upload Request Received from 192.168.2.183
+Content-Type: multipart/form-data; boundary="boundary_.oOo._vqNkhFflf65EiNU3cbP02TMPVjO+ppIB"
+2024-07-27 10:36:54,592 [application.py:post()] - Processing Uploaded File: Marta_GABS_RobotRogue%20-%20SKR%20Mini%20E3%20v3%20to%20DIN%20Clip_2024-07-27_10:36:51.ufp
+2024-07-27 10:36:54,925 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is enabled
+
+2024-07-27 10:36:55,250 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2024-07-27 10:36:55,252 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Marta_GABS_RobotRogue%20-%20SKR%20Mini%20E3%20v3%20to%20DIN%20Clip_2024-07-27_10:36:51.gcode, sliced by Cura
+
+2024-07-27 10:37:05,715 [shell_command.py:_check_proc_success()] - Command (/home/kkobold/moonraker-env/bin/python /home/kkobold/moonraker/moonraker/components/file_manager/metadata.py -p /home/kkobold/printer_data/gcodes -f "Marta_GABS_RobotRogue%20-%20SKR%20Mini%20E3%20v3%20to%20DIN%20Clip_2024-07-27_10:36:51.gcode" -u "/tmp/moonraker.upload-45519.mru" --check-objects) successfully finished
+2024-07-27 10:37:05,716 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_RobotRogue%20-%20SKR%20Mini%20E3%20v3%20to%20DIN%20Clip_2024-07-27_10:36:51.gcode
+2024-07-27 10:37:05,739 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 11317.25ms
+2024-07-27 10:37:05,745 [job_state.py:_status_update()] - Job Started: Marta_GABS_RobotRogue%20-%20SKR%20Mini%20E3%20v3%20to%20DIN%20Clip_2024-07-27_10:36:51.gcode
+2024-07-27 11:38:29,356 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
