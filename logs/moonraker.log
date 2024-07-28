@@ -456,3 +456,4 @@ CPU Temperature: 49.189
 2024-07-28 08:55:12,801 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
 2024-07-28 08:55:24,998 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_Ender%203%20-%20PSU%20Fan%20Cover_2024-07-28_08:26:47.gcode
 2024-07-28 08:55:25,073 [job_state.py:_status_update()] - Job Started: Marta_GABS_Ender%203%20-%20PSU%20Fan%20Cover_2024-07-28_08:26:47.gcode
+2024-07-28 09:57:45,773 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
