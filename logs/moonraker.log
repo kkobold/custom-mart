@@ -647,3 +647,20 @@ Content-Type: multipart/form-data; boundary="boundary_.oOo._VrnWxqPKorCC7WDnvzvF
 2024-07-29 08:09:38,730 [klippy_apis.py:cancel_print()] - Requesting job cancel...
 2024-07-29 08:10:46,564 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-TFL_b_2024-07-29_07:43:55.gcode
 2024-07-29 08:10:46,674 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-TFL_b_2024-07-29_07:43:55.gcode
+2024-07-29 09:07:47,151 [websockets.py:on_close()] - Websocket Closed: ID: 281473183071776 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-07-29 09:07:47,152 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473183071776
+2024-07-29 09:07:55,294 [application.py:log_request()] - 101 GET /websocket?token=JMHCHAJWDRIDC7IYN2S5YARVFL2TCZAD (192.168.2.183) [_TRUSTED_USER_] 4.74ms
+2024-07-29 09:07:55,296 [websockets.py:open()] - Websocket Opened: ID: 281473173864304, Proxied: False, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15, Host Name: 192.168.2.135
+2024-07-29 09:07:55,301 [websockets.py:_handle_identify()] - Websocket 281473173864304 Client Identified - Name: fluidd, Version: 1.30.1-62fe404, Type: web
+2024-07-29 09:07:55,302 [file_manager.py:get_file_list()] - Updating File List <config>...
+2024-07-29 10:08:55,456 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-07-29 11:15:57,482 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.138
+2024-07-29 11:15:57,516 [application.py:log_request()] - 101 GET /websocket?token=RYLI6VCVKZTMOAUCQFKBAJQKG3GVBTMB (192.168.2.138) [_TRUSTED_USER_] 6.09ms
+2024-07-29 11:15:57,517 [websockets.py:open()] - Websocket Opened: ID: 281473173864704, Proxied: False, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15, Host Name: 192.168.2.135
+2024-07-29 11:15:57,527 [websockets.py:_handle_identify()] - Websocket 281473173864704 Client Identified - Name: fluidd, Version: 1.30.1-62fe404, Type: web
+2024-07-29 11:15:57,529 [file_manager.py:get_file_list()] - Updating File List <config>...
+2024-07-29 11:16:30,300 [websockets.py:on_close()] - Websocket Closed: ID: 281473173864304 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-07-29 11:16:30,301 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473173864304
+2024-07-29 11:17:07,610 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473173864704
+2024-07-29 11:17:12,520 [websockets.py:on_close()] - Websocket Closed: ID: 281473173864704 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-07-29 12:18:55,485 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.138
