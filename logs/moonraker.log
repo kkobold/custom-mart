@@ -191,3 +191,5 @@ Git Repo led_effect: Warnings detected:
 Git Repo Klipper-Adaptive-Meshing-Purging: No warnings detected
 Klipper Version: v0.12.0-267-g12cd1d9e-dirty
 2024-07-29 00:06:42,416 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-07-29 01:26:10,745 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.2.135
+2024-07-29 02:21:05,105 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.2.135
