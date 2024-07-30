@@ -199,3 +199,14 @@ Git Repo Klipper-Adaptive-Meshing-Purging: No warnings detected
 Git Repo crowsnest: No warnings detected
 Klipper Version: v0.12.0-267-g12cd1d9e-dirty
 2024-07-30 00:18:49,742 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.114
+2024-07-30 05:34:33,091 [klippy_apis.py:cancel_print()] - Requesting job cancel...
+2024-07-30 05:40:27,155 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-07-30 05:41:27,158 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-07-30 05:49:25,589 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-07-30 05:52:22,221 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-TFL_b_2024-07-29_21:38:13.gcode
+2024-07-30 05:52:22,250 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-TFL_b_2024-07-29_21:38:13.gcode
+2024-07-30 06:22:42,452 [klippy_apis.py:cancel_print()] - Requesting job cancel...
+2024-07-30 06:23:17,428 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-TFL_b_2024-07-29_21:38:13.gcode
+2024-07-30 06:23:17,566 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-TFL_b_2024-07-29_21:38:13.gcode
+2024-07-30 06:53:49,840 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-07-30 08:58:45,844 [klippy_apis.py:cancel_print()] - Requesting job cancel...
