@@ -211,3 +211,10 @@ Klipper Version: v0.12.0-267-g12cd1d9e-dirty
 2024-07-30 06:53:49,840 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
 2024-07-30 08:58:45,844 [klippy_apis.py:cancel_print()] - Requesting job cancel...
 2024-07-30 09:16:59,935 [websockets.py:on_close()] - Websocket Closed: ID: 281472985194704 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 7.72
+2024-07-30 16:30:17,578 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-07-30 16:30:18,586 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-07-30 16:30:21,726 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-07-30 16:30:21,728 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-07-30 16:30:21,977 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-07-30 16:30:22,243 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-07-30 16:30:22,730 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
