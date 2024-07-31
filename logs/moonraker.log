@@ -218,3 +218,9 @@ Klipper Version: v0.12.0-267-g12cd1d9e-dirty
 2024-07-30 16:30:21,977 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-07-30 16:30:22,243 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-07-30 16:30:22,730 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-07-30 17:45:55,862 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-07-30 17:45:56,116 [application.py:log_request()] - 101 GET /websocket?token=FRTLGPSRW5FBVPO5KT7TXNYXV6D2UKBT (192.168.2.183) [_TRUSTED_USER_] 2.72ms
+2024-07-30 17:45:56,116 [websockets.py:open()] - Websocket Opened: ID: 281472984902768, Proxied: False, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15, Host Name: 192.168.2.135
+2024-07-30 17:45:56,120 [websockets.py:_handle_identify()] - Websocket 281472984902768 Client Identified - Name: fluidd, Version: 1.30.1-62fe404, Type: web
+2024-07-30 17:45:56,121 [file_manager.py:get_file_list()] - Updating File List <config>...
+2024-07-30 18:48:50,007 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
