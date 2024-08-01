@@ -199,3 +199,21 @@ Git Repo Klipper-Adaptive-Meshing-Purging: No warnings detected
 Git Repo crowsnest: No warnings detected
 Klipper Version: v0.12.0-267-g12cd1d9e-dirty
 2024-08-01 00:17:43,413 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-08-01 01:41:55,407 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473637078208
+2024-08-01 01:42:00,373 [websockets.py:on_close()] - Websocket Closed: ID: 281473637078208 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-08-01 01:52:32,740 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-08-01 01:52:32,762 [application.py:log_request()] - 101 GET /websocket?token=UQUYZFD476E4VBZALGCJRTG6MCKD6U4H (192.168.2.183) [_TRUSTED_USER_] 4.59ms
+2024-08-01 01:52:32,764 [websockets.py:open()] - Websocket Opened: ID: 281473635739776, Proxied: False, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15, Host Name: 192.168.2.135
+2024-08-01 01:52:32,769 [websockets.py:_handle_identify()] - Websocket 281473635739776 Client Identified - Name: fluidd, Version: 1.30.1-62fe404, Type: web
+2024-08-01 01:52:32,770 [file_manager.py:get_file_list()] - Updating File List <config>...
+2024-08-01 01:53:32,889 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473635739776
+2024-08-01 01:53:37,767 [websockets.py:on_close()] - Websocket Closed: ID: 281473635739776 Close Code: None, Close Reason: None, Pong Time Elapsed: 45.00
+2024-08-01 02:06:06,693 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.138
+2024-08-01 02:06:06,727 [application.py:log_request()] - 101 GET /websocket?token=TXU2FAMUDUKFHDPR25CELXU2TNR4NVHW (192.168.2.138) [_TRUSTED_USER_] 4.94ms
+2024-08-01 02:06:06,728 [websockets.py:open()] - Websocket Opened: ID: 281473638635120, Proxied: False, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15, Host Name: 192.168.2.135
+2024-08-01 02:06:06,736 [websockets.py:_handle_identify()] - Websocket 281473638635120 Client Identified - Name: fluidd, Version: 1.30.1-62fe404, Type: web
+2024-08-01 02:06:06,737 [file_manager.py:get_file_list()] - Updating File List <config>...
+2024-08-01 02:07:06,958 [websockets.py:write_to_socket()] - Websocket closed while writing: 281473638635120
+2024-08-01 02:07:11,731 [websockets.py:on_close()] - Websocket Closed: ID: 281473638635120 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.97
+2024-08-01 03:07:43,450 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-08-01 03:07:43,450 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.138
