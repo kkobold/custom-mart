@@ -243,3 +243,4 @@ Content-Type: multipart/form-data; boundary="boundary_.oOo._QrRTAzNQ76OqwNCr/loR
 2024-08-01 08:43:38,286 [klippy_apis.py:cancel_print()] - Requesting job cancel...
 2024-08-01 08:44:25,477 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-TFL_b_2024-08-01_08:40:52.gcode
 2024-08-01 08:44:25,549 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-TFL_b_2024-08-01_08:40:52.gcode
+2024-08-01 09:47:43,546 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
