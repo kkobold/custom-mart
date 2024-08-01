@@ -2629,3 +2629,399 @@
 [07/29/24 22:02:04] crowsnest: Starting ustreamer with Device /dev/video1 ...
 [07/29/24 22:02:05] crowsnest:  ... Done!
 [07/30/24 05:50:33] crowsnest: WATCHDOG: Lost Device: '/dev/video1'
+[07/30/24 21:17:08] crowsnest: crowsnest - A webcam Service for multiple Cams and Stream Services.
+[07/30/24 21:17:08] crowsnest: Version: v4.1.9-1-gd75a3ae
+[07/30/24 21:17:08] crowsnest: Prepare Startup ...
+[07/30/24 21:17:08] crowsnest: INFO: Host information:
+[07/30/24 21:17:08] crowsnest: Host Info: Distribution: Debian GNU/Linux 11 (bullseye)
+[07/30/24 21:17:08] crowsnest: Host Info: Kernel: Linux 5.16.17-sun50iw6 aarch64
+[07/30/24 21:17:08] crowsnest: Host Info: Available CPU Cores: 4
+[07/30/24 21:17:08] crowsnest: Host Info: Available Memory: 2032516 kB
+[07/30/24 21:17:08] crowsnest: Host Info: Diskspace (avail. / total): 1.4G / 7.0G
+[07/30/24 21:17:08] crowsnest: INFO: Checking Dependencies
+[07/30/24 21:17:08] crowsnest: Dependency: 'crudini' found in /usr/bin/crudini.
+[07/30/24 21:17:08] crowsnest: Dependency: 'find' found in /usr/bin/find.
+[07/30/24 21:17:08] crowsnest: Dependency: 'xargs' found in /usr/bin/xargs.
+[07/30/24 21:17:08] crowsnest: Dependency: 'ustreamer' found in bin/ustreamer/src/ustreamer.bin.
+[07/30/24 21:17:08] crowsnest: Version Control: ustreamer is up to date. (v6.10)
+[07/30/24 21:17:08] crowsnest: INFO: Print Configfile: '/home/kkobold/printer_data/config/crowsnest.conf'
+[07/30/24 21:17:08] crowsnest:		[crowsnest]
+[07/30/24 21:17:08] crowsnest:		log_path: /home/kkobold/printer_data/logs/crowsnest.log
+[07/30/24 21:17:08] crowsnest:		log_level: verbose
+[07/30/24 21:17:08] crowsnest:		delete_log: false
+[07/30/24 21:17:08] crowsnest:		no_proxy: true
+[07/30/24 21:17:08] crowsnest:		
+[07/30/24 21:17:08] crowsnest:		[cam 1]
+[07/30/24 21:17:08] crowsnest:		mode: ustreamer
+[07/30/24 21:17:08] crowsnest:		
+[07/30/24 21:17:08] crowsnest:		enable_rtsp: false
+[07/30/24 21:17:08] crowsnest:		rtsp_port: 8554
+[07/30/24 21:17:08] crowsnest:		port: 8080
+[07/30/24 21:17:08] crowsnest:		device: /dev/video1
+[07/30/24 21:17:08] crowsnest:		resolution: 1280x720
+[07/30/24 21:17:08] crowsnest:		max_fps: 24
+[07/30/24 21:17:08] crowsnest: INFO: Detect available Devices
+[07/30/24 21:17:08] crowsnest: ERROR: No usable Devices Found. Stopping crowsnest.
+[07/30/24 21:17:15] crowsnest: crowsnest - A webcam Service for multiple Cams and Stream Services.
+[07/30/24 21:17:15] crowsnest: Version: v4.1.9-1-gd75a3ae
+[07/30/24 21:17:15] crowsnest: Prepare Startup ...
+[07/30/24 21:17:15] crowsnest: INFO: Host information:
+[07/30/24 21:17:15] crowsnest: Host Info: Distribution: Debian GNU/Linux 11 (bullseye)
+[07/30/24 21:17:15] crowsnest: Host Info: Kernel: Linux 5.16.17-sun50iw6 aarch64
+[07/30/24 21:17:15] crowsnest: Host Info: Available CPU Cores: 4
+[07/30/24 21:17:15] crowsnest: Host Info: Available Memory: 2032516 kB
+[07/30/24 21:17:15] crowsnest: Host Info: Diskspace (avail. / total): 1.4G / 7.0G
+[07/30/24 21:17:15] crowsnest: INFO: Checking Dependencies
+[07/30/24 21:17:15] crowsnest: Dependency: 'crudini' found in /usr/bin/crudini.
+[07/30/24 21:17:15] crowsnest: Dependency: 'find' found in /usr/bin/find.
+[07/30/24 21:17:15] crowsnest: Dependency: 'xargs' found in /usr/bin/xargs.
+[07/30/24 21:17:15] crowsnest: Dependency: 'ustreamer' found in bin/ustreamer/src/ustreamer.bin.
+[07/30/24 21:17:15] crowsnest: Version Control: ustreamer is up to date. (v6.10)
+[07/30/24 21:17:15] crowsnest: INFO: Print Configfile: '/home/kkobold/printer_data/config/crowsnest.conf'
+[07/30/24 21:17:15] crowsnest:		[crowsnest]
+[07/30/24 21:17:15] crowsnest:		log_path: /home/kkobold/printer_data/logs/crowsnest.log
+[07/30/24 21:17:15] crowsnest:		log_level: verbose
+[07/30/24 21:17:15] crowsnest:		delete_log: false
+[07/30/24 21:17:15] crowsnest:		no_proxy: true
+[07/30/24 21:17:15] crowsnest:		
+[07/30/24 21:17:15] crowsnest:		[cam 1]
+[07/30/24 21:17:15] crowsnest:		mode: ustreamer
+[07/30/24 21:17:15] crowsnest:		
+[07/30/24 21:17:15] crowsnest:		enable_rtsp: false
+[07/30/24 21:17:15] crowsnest:		rtsp_port: 8554
+[07/30/24 21:17:15] crowsnest:		port: 8080
+[07/30/24 21:17:15] crowsnest:		device: /dev/video1
+[07/30/24 21:17:15] crowsnest:		resolution: 1280x720
+[07/30/24 21:17:15] crowsnest:		max_fps: 24
+[07/30/24 21:17:15] crowsnest: INFO: Detect available Devices
+[07/30/24 21:17:15] crowsnest: ERROR: No usable Devices Found. Stopping crowsnest.
+[07/30/24 22:03:26] crowsnest: crowsnest - A webcam Service for multiple Cams and Stream Services.
+[07/30/24 22:03:26] crowsnest: Version: v4.1.9-1-gd75a3ae
+[07/30/24 22:03:26] crowsnest: Prepare Startup ...
+[07/30/24 22:03:26] crowsnest: INFO: Host information:
+[07/30/24 22:03:26] crowsnest: Host Info: Distribution: Debian GNU/Linux 11 (bullseye)
+[07/30/24 22:03:26] crowsnest: Host Info: Kernel: Linux 5.16.17-sun50iw6 aarch64
+[07/30/24 22:03:26] crowsnest: Host Info: Available CPU Cores: 4
+[07/30/24 22:03:26] crowsnest: Host Info: Available Memory: 2032516 kB
+[07/30/24 22:03:26] crowsnest: Host Info: Diskspace (avail. / total): 1.4G / 7.0G
+[07/30/24 22:03:26] crowsnest: INFO: Checking Dependencies
+[07/30/24 22:03:26] crowsnest: Dependency: 'crudini' found in /usr/bin/crudini.
+[07/30/24 22:03:26] crowsnest: Dependency: 'find' found in /usr/bin/find.
+[07/30/24 22:03:26] crowsnest: Dependency: 'xargs' found in /usr/bin/xargs.
+[07/30/24 22:03:26] crowsnest: Dependency: 'ustreamer' found in bin/ustreamer/src/ustreamer.bin.
+[07/30/24 22:03:26] crowsnest: Version Control: ustreamer is up to date. (v6.10)
+[07/30/24 22:03:26] crowsnest: INFO: Print Configfile: '/home/kkobold/printer_data/config/crowsnest.conf'
+[07/30/24 22:03:26] crowsnest:		[crowsnest]
+[07/30/24 22:03:26] crowsnest:		log_path: /home/kkobold/printer_data/logs/crowsnest.log
+[07/30/24 22:03:26] crowsnest:		log_level: verbose
+[07/30/24 22:03:26] crowsnest:		delete_log: false
+[07/30/24 22:03:26] crowsnest:		no_proxy: true
+[07/30/24 22:03:26] crowsnest:		
+[07/30/24 22:03:26] crowsnest:		[cam 1]
+[07/30/24 22:03:26] crowsnest:		mode: ustreamer
+[07/30/24 22:03:26] crowsnest:		
+[07/30/24 22:03:26] crowsnest:		enable_rtsp: false
+[07/30/24 22:03:26] crowsnest:		rtsp_port: 8554
+[07/30/24 22:03:26] crowsnest:		port: 8080
+[07/30/24 22:03:26] crowsnest:		device: /dev/video1
+[07/30/24 22:03:26] crowsnest:		resolution: 1280x720
+[07/30/24 22:03:26] crowsnest:		max_fps: 24
+[07/30/24 22:03:26] crowsnest: INFO: Detect available Devices
+[07/30/24 22:03:26] crowsnest: ERROR: No usable Devices Found. Stopping crowsnest.
+[07/30/24 22:03:32] crowsnest: crowsnest - A webcam Service for multiple Cams and Stream Services.
+[07/30/24 22:03:32] crowsnest: Version: v4.1.9-1-gd75a3ae
+[07/30/24 22:03:32] crowsnest: Prepare Startup ...
+[07/30/24 22:03:32] crowsnest: INFO: Host information:
+[07/30/24 22:03:32] crowsnest: Host Info: Distribution: Debian GNU/Linux 11 (bullseye)
+[07/30/24 22:03:32] crowsnest: Host Info: Kernel: Linux 5.16.17-sun50iw6 aarch64
+[07/30/24 22:03:32] crowsnest: Host Info: Available CPU Cores: 4
+[07/30/24 22:03:32] crowsnest: Host Info: Available Memory: 2032516 kB
+[07/30/24 22:03:32] crowsnest: Host Info: Diskspace (avail. / total): 1.4G / 7.0G
+[07/30/24 22:03:32] crowsnest: INFO: Checking Dependencies
+[07/30/24 22:03:32] crowsnest: Dependency: 'crudini' found in /usr/bin/crudini.
+[07/30/24 22:03:32] crowsnest: Dependency: 'find' found in /usr/bin/find.
+[07/30/24 22:03:32] crowsnest: Dependency: 'xargs' found in /usr/bin/xargs.
+[07/30/24 22:03:32] crowsnest: Dependency: 'ustreamer' found in bin/ustreamer/src/ustreamer.bin.
+[07/30/24 22:03:32] crowsnest: Version Control: ustreamer is up to date. (v6.10)
+[07/30/24 22:03:32] crowsnest: INFO: Print Configfile: '/home/kkobold/printer_data/config/crowsnest.conf'
+[07/30/24 22:03:32] crowsnest:		[crowsnest]
+[07/30/24 22:03:32] crowsnest:		log_path: /home/kkobold/printer_data/logs/crowsnest.log
+[07/30/24 22:03:32] crowsnest:		log_level: verbose
+[07/30/24 22:03:32] crowsnest:		delete_log: false
+[07/30/24 22:03:32] crowsnest:		no_proxy: true
+[07/30/24 22:03:32] crowsnest:		
+[07/30/24 22:03:32] crowsnest:		[cam 1]
+[07/30/24 22:03:32] crowsnest:		mode: ustreamer
+[07/30/24 22:03:32] crowsnest:		
+[07/30/24 22:03:32] crowsnest:		enable_rtsp: false
+[07/30/24 22:03:32] crowsnest:		rtsp_port: 8554
+[07/30/24 22:03:32] crowsnest:		port: 8080
+[07/30/24 22:03:32] crowsnest:		device: /dev/video1
+[07/30/24 22:03:32] crowsnest:		resolution: 1280x720
+[07/30/24 22:03:32] crowsnest:		max_fps: 24
+[07/30/24 22:03:32] crowsnest: INFO: Detect available Devices
+[07/30/24 22:03:32] crowsnest: ERROR: No usable Devices Found. Stopping crowsnest.
+[07/30/24 22:03:39] crowsnest: crowsnest - A webcam Service for multiple Cams and Stream Services.
+[07/30/24 22:03:39] crowsnest: Version: v4.1.9-1-gd75a3ae
+[07/30/24 22:03:39] crowsnest: Prepare Startup ...
+[07/30/24 22:03:39] crowsnest: INFO: Host information:
+[07/30/24 22:03:39] crowsnest: Host Info: Distribution: Debian GNU/Linux 11 (bullseye)
+[07/30/24 22:03:39] crowsnest: Host Info: Kernel: Linux 5.16.17-sun50iw6 aarch64
+[07/30/24 22:03:39] crowsnest: Host Info: Available CPU Cores: 4
+[07/30/24 22:03:39] crowsnest: Host Info: Available Memory: 2032516 kB
+[07/30/24 22:03:39] crowsnest: Host Info: Diskspace (avail. / total): 1.4G / 7.0G
+[07/30/24 22:03:39] crowsnest: INFO: Checking Dependencies
+[07/30/24 22:03:39] crowsnest: Dependency: 'crudini' found in /usr/bin/crudini.
+[07/30/24 22:03:39] crowsnest: Dependency: 'find' found in /usr/bin/find.
+[07/30/24 22:03:39] crowsnest: Dependency: 'xargs' found in /usr/bin/xargs.
+[07/30/24 22:03:39] crowsnest: Dependency: 'ustreamer' found in bin/ustreamer/src/ustreamer.bin.
+[07/30/24 22:03:39] crowsnest: Version Control: ustreamer is up to date. (v6.10)
+[07/30/24 22:03:39] crowsnest: INFO: Print Configfile: '/home/kkobold/printer_data/config/crowsnest.conf'
+[07/30/24 22:03:39] crowsnest:		[crowsnest]
+[07/30/24 22:03:39] crowsnest:		log_path: /home/kkobold/printer_data/logs/crowsnest.log
+[07/30/24 22:03:39] crowsnest:		log_level: verbose
+[07/30/24 22:03:39] crowsnest:		delete_log: false
+[07/30/24 22:03:39] crowsnest:		no_proxy: true
+[07/30/24 22:03:39] crowsnest:		
+[07/30/24 22:03:39] crowsnest:		[cam 1]
+[07/30/24 22:03:39] crowsnest:		mode: ustreamer
+[07/30/24 22:03:39] crowsnest:		
+[07/30/24 22:03:39] crowsnest:		enable_rtsp: false
+[07/30/24 22:03:39] crowsnest:		rtsp_port: 8554
+[07/30/24 22:03:39] crowsnest:		port: 8080
+[07/30/24 22:03:39] crowsnest:		device: /dev/video1
+[07/30/24 22:03:39] crowsnest:		resolution: 1280x720
+[07/30/24 22:03:39] crowsnest:		max_fps: 24
+[07/30/24 22:03:39] crowsnest: INFO: Detect available Devices
+[07/30/24 22:03:39] crowsnest: ERROR: No usable Devices Found. Stopping crowsnest.
+[07/30/24 22:03:45] crowsnest: crowsnest - A webcam Service for multiple Cams and Stream Services.
+[07/30/24 22:03:45] crowsnest: Version: v4.1.9-1-gd75a3ae
+[07/30/24 22:03:45] crowsnest: Prepare Startup ...
+[07/30/24 22:03:45] crowsnest: INFO: Host information:
+[07/30/24 22:03:45] crowsnest: Host Info: Distribution: Debian GNU/Linux 11 (bullseye)
+[07/30/24 22:03:45] crowsnest: Host Info: Kernel: Linux 5.16.17-sun50iw6 aarch64
+[07/30/24 22:03:45] crowsnest: Host Info: Available CPU Cores: 4
+[07/30/24 22:03:45] crowsnest: Host Info: Available Memory: 2032516 kB
+[07/30/24 22:03:45] crowsnest: Host Info: Diskspace (avail. / total): 1.4G / 7.0G
+[07/30/24 22:03:45] crowsnest: INFO: Checking Dependencies
+[07/30/24 22:03:45] crowsnest: Dependency: 'crudini' found in /usr/bin/crudini.
+[07/30/24 22:03:45] crowsnest: Dependency: 'find' found in /usr/bin/find.
+[07/30/24 22:03:45] crowsnest: Dependency: 'xargs' found in /usr/bin/xargs.
+[07/30/24 22:03:45] crowsnest: Dependency: 'ustreamer' found in bin/ustreamer/src/ustreamer.bin.
+[07/30/24 22:03:45] crowsnest: Version Control: ustreamer is up to date. (v6.10)
+[07/30/24 22:03:45] crowsnest: INFO: Print Configfile: '/home/kkobold/printer_data/config/crowsnest.conf'
+[07/30/24 22:03:45] crowsnest:		[crowsnest]
+[07/30/24 22:03:45] crowsnest:		log_path: /home/kkobold/printer_data/logs/crowsnest.log
+[07/30/24 22:03:45] crowsnest:		log_level: verbose
+[07/30/24 22:03:45] crowsnest:		delete_log: false
+[07/30/24 22:03:45] crowsnest:		no_proxy: true
+[07/30/24 22:03:45] crowsnest:		
+[07/30/24 22:03:45] crowsnest:		[cam 1]
+[07/30/24 22:03:45] crowsnest:		mode: ustreamer
+[07/30/24 22:03:45] crowsnest:		
+[07/30/24 22:03:45] crowsnest:		enable_rtsp: false
+[07/30/24 22:03:45] crowsnest:		rtsp_port: 8554
+[07/30/24 22:03:45] crowsnest:		port: 8080
+[07/30/24 22:03:45] crowsnest:		device: /dev/video1
+[07/30/24 22:03:45] crowsnest:		resolution: 1280x720
+[07/30/24 22:03:45] crowsnest:		max_fps: 24
+[07/30/24 22:03:45] crowsnest: INFO: Detect available Devices
+[07/30/24 22:03:45] crowsnest: ERROR: No usable Devices Found. Stopping crowsnest.
+[07/30/24 22:03:51] crowsnest: crowsnest - A webcam Service for multiple Cams and Stream Services.
+[07/30/24 22:03:51] crowsnest: Version: v4.1.9-1-gd75a3ae
+[07/30/24 22:03:51] crowsnest: Prepare Startup ...
+[07/30/24 22:03:51] crowsnest: INFO: Host information:
+[07/30/24 22:03:51] crowsnest: Host Info: Distribution: Debian GNU/Linux 11 (bullseye)
+[07/30/24 22:03:51] crowsnest: Host Info: Kernel: Linux 5.16.17-sun50iw6 aarch64
+[07/30/24 22:03:51] crowsnest: Host Info: Available CPU Cores: 4
+[07/30/24 22:03:51] crowsnest: Host Info: Available Memory: 2032516 kB
+[07/30/24 22:03:51] crowsnest: Host Info: Diskspace (avail. / total): 1.4G / 7.0G
+[07/30/24 22:03:51] crowsnest: INFO: Checking Dependencies
+[07/30/24 22:03:51] crowsnest: Dependency: 'crudini' found in /usr/bin/crudini.
+[07/30/24 22:03:51] crowsnest: Dependency: 'find' found in /usr/bin/find.
+[07/30/24 22:03:51] crowsnest: Dependency: 'xargs' found in /usr/bin/xargs.
+[07/30/24 22:03:51] crowsnest: Dependency: 'ustreamer' found in bin/ustreamer/src/ustreamer.bin.
+[07/30/24 22:03:52] crowsnest: Version Control: ustreamer is up to date. (v6.10)
+[07/30/24 22:03:52] crowsnest: INFO: Print Configfile: '/home/kkobold/printer_data/config/crowsnest.conf'
+[07/30/24 22:03:52] crowsnest:		[crowsnest]
+[07/30/24 22:03:52] crowsnest:		log_path: /home/kkobold/printer_data/logs/crowsnest.log
+[07/30/24 22:03:52] crowsnest:		log_level: verbose
+[07/30/24 22:03:52] crowsnest:		delete_log: false
+[07/30/24 22:03:52] crowsnest:		no_proxy: true
+[07/30/24 22:03:52] crowsnest:		
+[07/30/24 22:03:52] crowsnest:		[cam 1]
+[07/30/24 22:03:52] crowsnest:		mode: ustreamer
+[07/30/24 22:03:52] crowsnest:		
+[07/30/24 22:03:52] crowsnest:		enable_rtsp: false
+[07/30/24 22:03:52] crowsnest:		rtsp_port: 8554
+[07/30/24 22:03:52] crowsnest:		port: 8080
+[07/30/24 22:03:52] crowsnest:		device: /dev/video1
+[07/30/24 22:03:52] crowsnest:		resolution: 1280x720
+[07/30/24 22:03:52] crowsnest:		max_fps: 24
+[07/30/24 22:03:52] crowsnest: INFO: Detect available Devices
+[07/30/24 22:03:52] crowsnest: ERROR: No usable Devices Found. Stopping crowsnest.
+[07/30/24 22:03:58] crowsnest: crowsnest - A webcam Service for multiple Cams and Stream Services.
+[07/30/24 22:03:58] crowsnest: Version: v4.1.9-1-gd75a3ae
+[07/30/24 22:03:58] crowsnest: Prepare Startup ...
+[07/30/24 22:03:58] crowsnest: INFO: Host information:
+[07/30/24 22:03:58] crowsnest: Host Info: Distribution: Debian GNU/Linux 11 (bullseye)
+[07/30/24 22:03:58] crowsnest: Host Info: Kernel: Linux 5.16.17-sun50iw6 aarch64
+[07/30/24 22:03:58] crowsnest: Host Info: Available CPU Cores: 4
+[07/30/24 22:03:58] crowsnest: Host Info: Available Memory: 2032516 kB
+[07/30/24 22:03:58] crowsnest: Host Info: Diskspace (avail. / total): 1.4G / 7.0G
+[07/30/24 22:03:58] crowsnest: INFO: Checking Dependencies
+[07/30/24 22:03:58] crowsnest: Dependency: 'crudini' found in /usr/bin/crudini.
+[07/30/24 22:03:58] crowsnest: Dependency: 'find' found in /usr/bin/find.
+[07/30/24 22:03:58] crowsnest: Dependency: 'xargs' found in /usr/bin/xargs.
+[07/30/24 22:03:58] crowsnest: Dependency: 'ustreamer' found in bin/ustreamer/src/ustreamer.bin.
+[07/30/24 22:03:58] crowsnest: Version Control: ustreamer is up to date. (v6.10)
+[07/30/24 22:03:58] crowsnest: INFO: Print Configfile: '/home/kkobold/printer_data/config/crowsnest.conf'
+[07/30/24 22:03:58] crowsnest:		[crowsnest]
+[07/30/24 22:03:58] crowsnest:		log_path: /home/kkobold/printer_data/logs/crowsnest.log
+[07/30/24 22:03:58] crowsnest:		log_level: verbose
+[07/30/24 22:03:58] crowsnest:		delete_log: false
+[07/30/24 22:03:58] crowsnest:		no_proxy: true
+[07/30/24 22:03:58] crowsnest:		
+[07/30/24 22:03:58] crowsnest:		[cam 1]
+[07/30/24 22:03:58] crowsnest:		mode: ustreamer
+[07/30/24 22:03:58] crowsnest:		
+[07/30/24 22:03:58] crowsnest:		enable_rtsp: false
+[07/30/24 22:03:58] crowsnest:		rtsp_port: 8554
+[07/30/24 22:03:58] crowsnest:		port: 8080
+[07/30/24 22:03:58] crowsnest:		device: /dev/video1
+[07/30/24 22:03:58] crowsnest:		resolution: 1280x720
+[07/30/24 22:03:58] crowsnest:		max_fps: 24
+[07/30/24 22:03:58] crowsnest: INFO: Detect available Devices
+[07/30/24 22:03:58] crowsnest: ERROR: No usable Devices Found. Stopping crowsnest.
+[07/30/24 22:04:04] crowsnest: crowsnest - A webcam Service for multiple Cams and Stream Services.
+[07/30/24 22:04:04] crowsnest: Version: v4.1.9-1-gd75a3ae
+[07/30/24 22:04:04] crowsnest: Prepare Startup ...
+[07/30/24 22:04:04] crowsnest: INFO: Host information:
+[07/30/24 22:04:04] crowsnest: Host Info: Distribution: Debian GNU/Linux 11 (bullseye)
+[07/30/24 22:04:04] crowsnest: Host Info: Kernel: Linux 5.16.17-sun50iw6 aarch64
+[07/30/24 22:04:04] crowsnest: Host Info: Available CPU Cores: 4
+[07/30/24 22:04:04] crowsnest: Host Info: Available Memory: 2032516 kB
+[07/30/24 22:04:04] crowsnest: Host Info: Diskspace (avail. / total): 1.4G / 7.0G
+[07/30/24 22:04:04] crowsnest: INFO: Checking Dependencies
+[07/30/24 22:04:04] crowsnest: Dependency: 'crudini' found in /usr/bin/crudini.
+[07/30/24 22:04:04] crowsnest: Dependency: 'find' found in /usr/bin/find.
+[07/30/24 22:04:04] crowsnest: Dependency: 'xargs' found in /usr/bin/xargs.
+[07/30/24 22:04:04] crowsnest: Dependency: 'ustreamer' found in bin/ustreamer/src/ustreamer.bin.
+[07/30/24 22:04:04] crowsnest: Version Control: ustreamer is up to date. (v6.10)
+[07/30/24 22:04:04] crowsnest: INFO: Print Configfile: '/home/kkobold/printer_data/config/crowsnest.conf'
+[07/30/24 22:04:04] crowsnest:		[crowsnest]
+[07/30/24 22:04:04] crowsnest:		log_path: /home/kkobold/printer_data/logs/crowsnest.log
+[07/30/24 22:04:04] crowsnest:		log_level: verbose
+[07/30/24 22:04:04] crowsnest:		delete_log: false
+[07/30/24 22:04:04] crowsnest:		no_proxy: true
+[07/30/24 22:04:04] crowsnest:		
+[07/30/24 22:04:04] crowsnest:		[cam 1]
+[07/30/24 22:04:04] crowsnest:		mode: ustreamer
+[07/30/24 22:04:04] crowsnest:		
+[07/30/24 22:04:04] crowsnest:		enable_rtsp: false
+[07/30/24 22:04:04] crowsnest:		rtsp_port: 8554
+[07/30/24 22:04:04] crowsnest:		port: 8080
+[07/30/24 22:04:04] crowsnest:		device: /dev/video1
+[07/30/24 22:04:04] crowsnest:		resolution: 1280x720
+[07/30/24 22:04:04] crowsnest:		max_fps: 24
+[07/30/24 22:04:04] crowsnest: INFO: Detect available Devices
+[07/30/24 22:04:04] crowsnest: ERROR: No usable Devices Found. Stopping crowsnest.
+[07/30/24 22:04:10] crowsnest: crowsnest - A webcam Service for multiple Cams and Stream Services.
+[07/30/24 22:04:10] crowsnest: Version: v4.1.9-1-gd75a3ae
+[07/30/24 22:04:10] crowsnest: Prepare Startup ...
+[07/30/24 22:04:10] crowsnest: INFO: Host information:
+[07/30/24 22:04:10] crowsnest: Host Info: Distribution: Debian GNU/Linux 11 (bullseye)
+[07/30/24 22:04:10] crowsnest: Host Info: Kernel: Linux 5.16.17-sun50iw6 aarch64
+[07/30/24 22:04:10] crowsnest: Host Info: Available CPU Cores: 4
+[07/30/24 22:04:10] crowsnest: Host Info: Available Memory: 2032516 kB
+[07/30/24 22:04:10] crowsnest: Host Info: Diskspace (avail. / total): 1.4G / 7.0G
+[07/30/24 22:04:10] crowsnest: INFO: Checking Dependencies
+[07/30/24 22:04:10] crowsnest: Dependency: 'crudini' found in /usr/bin/crudini.
+[07/30/24 22:04:10] crowsnest: Dependency: 'find' found in /usr/bin/find.
+[07/30/24 22:04:10] crowsnest: Dependency: 'xargs' found in /usr/bin/xargs.
+[07/30/24 22:04:10] crowsnest: Dependency: 'ustreamer' found in bin/ustreamer/src/ustreamer.bin.
+[07/30/24 22:04:10] crowsnest: Version Control: ustreamer is up to date. (v6.10)
+[07/30/24 22:04:10] crowsnest: INFO: Print Configfile: '/home/kkobold/printer_data/config/crowsnest.conf'
+[07/30/24 22:04:10] crowsnest:		[crowsnest]
+[07/30/24 22:04:10] crowsnest:		log_path: /home/kkobold/printer_data/logs/crowsnest.log
+[07/30/24 22:04:10] crowsnest:		log_level: verbose
+[07/30/24 22:04:10] crowsnest:		delete_log: false
+[07/30/24 22:04:10] crowsnest:		no_proxy: true
+[07/30/24 22:04:10] crowsnest:		
+[07/30/24 22:04:10] crowsnest:		[cam 1]
+[07/30/24 22:04:10] crowsnest:		mode: ustreamer
+[07/30/24 22:04:10] crowsnest:		
+[07/30/24 22:04:10] crowsnest:		enable_rtsp: false
+[07/30/24 22:04:10] crowsnest:		rtsp_port: 8554
+[07/30/24 22:04:10] crowsnest:		port: 8080
+[07/30/24 22:04:10] crowsnest:		device: /dev/video1
+[07/30/24 22:04:10] crowsnest:		resolution: 1280x720
+[07/30/24 22:04:10] crowsnest:		max_fps: 24
+[07/30/24 22:04:10] crowsnest: INFO: Detect available Devices
+[07/30/24 22:04:10] crowsnest: ERROR: No usable Devices Found. Stopping crowsnest.
+[07/30/24 21:17:08] crowsnest: crowsnest - A webcam Service for multiple Cams and Stream Services.
+[07/30/24 21:17:08] crowsnest: Version: v4.1.9-1-gd75a3ae
+[07/30/24 21:17:08] crowsnest: Prepare Startup ...
+[07/30/24 21:17:08] crowsnest: INFO: Host information:
+[07/30/24 21:17:08] crowsnest: Host Info: Distribution: Debian GNU/Linux 11 (bullseye)
+[07/30/24 21:17:08] crowsnest: Host Info: Kernel: Linux 5.16.17-sun50iw6 aarch64
+[07/30/24 21:17:08] crowsnest: Host Info: Available CPU Cores: 4
+[07/30/24 21:17:08] crowsnest: Host Info: Available Memory: 2032516 kB
+[07/30/24 21:17:08] crowsnest: Host Info: Diskspace (avail. / total): 1.4G / 7.0G
+[07/30/24 21:17:08] crowsnest: INFO: Checking Dependencies
+[07/30/24 21:17:08] crowsnest: Dependency: 'crudini' found in /usr/bin/crudini.
+[07/30/24 21:17:08] crowsnest: Dependency: 'find' found in /usr/bin/find.
+[07/30/24 21:17:08] crowsnest: Dependency: 'xargs' found in /usr/bin/xargs.
+[07/30/24 21:17:08] crowsnest: Dependency: 'ustreamer' found in bin/ustreamer/src/ustreamer.bin.
+[07/30/24 21:17:08] crowsnest: Version Control: ustreamer is up to date. (v6.10)
+[07/30/24 21:17:08] crowsnest: INFO: Print Configfile: '/home/kkobold/printer_data/config/crowsnest.conf'
+[07/30/24 21:17:08] crowsnest:		[crowsnest]
+[07/30/24 21:17:08] crowsnest:		log_path: /home/kkobold/printer_data/logs/crowsnest.log
+[07/30/24 21:17:08] crowsnest:		log_level: verbose
+[07/30/24 21:17:08] crowsnest:		delete_log: false
+[07/30/24 21:17:08] crowsnest:		no_proxy: true
+[07/30/24 21:17:08] crowsnest:		
+[07/30/24 21:17:08] crowsnest:		[cam 1]
+[07/30/24 21:17:08] crowsnest:		mode: ustreamer
+[07/30/24 21:17:08] crowsnest:		
+[07/30/24 21:17:08] crowsnest:		enable_rtsp: false
+[07/30/24 21:17:08] crowsnest:		rtsp_port: 8554
+[07/30/24 21:17:08] crowsnest:		port: 8080
+[07/30/24 21:17:08] crowsnest:		device: /dev/video1
+[07/30/24 21:17:08] crowsnest:		resolution: 1280x720
+[07/30/24 21:17:08] crowsnest:		max_fps: 24
+[07/30/24 21:17:08] crowsnest: INFO: Detect available Devices
+[07/30/24 21:17:09] crowsnest: ERROR: No usable Devices Found. Stopping crowsnest.
+[07/30/24 21:17:15] crowsnest: crowsnest - A webcam Service for multiple Cams and Stream Services.
+[07/30/24 21:17:15] crowsnest: Version: v4.1.9-1-gd75a3ae
+[07/30/24 21:17:15] crowsnest: Prepare Startup ...
+[07/30/24 21:17:15] crowsnest: INFO: Host information:
+[07/30/24 21:17:15] crowsnest: Host Info: Distribution: Debian GNU/Linux 11 (bullseye)
+[07/30/24 21:17:15] crowsnest: Host Info: Kernel: Linux 5.16.17-sun50iw6 aarch64
+[07/30/24 21:17:15] crowsnest: Host Info: Available CPU Cores: 4
+[07/30/24 21:17:15] crowsnest: Host Info: Available Memory: 2032516 kB
+[07/30/24 21:17:15] crowsnest: Host Info: Diskspace (avail. / total): 1.4G / 7.0G
+[07/30/24 21:17:15] crowsnest: INFO: Checking Dependencies
+[07/30/24 21:17:15] crowsnest: Dependency: 'crudini' found in /usr/bin/crudini.
+[07/30/24 21:17:15] crowsnest: Dependency: 'find' found in /usr/bin/find.
+[07/30/24 21:17:15] crowsnest: Dependency: 'xargs' found in /usr/bin/xargs.
+[07/30/24 21:17:15] crowsnest: Dependency: 'ustreamer' found in bin/ustreamer/src/ustreamer.bin.
+[07/30/24 21:17:15] crowsnest: Version Control: ustreamer is up to date. (v6.10)
+[07/30/24 21:17:15] crowsnest: INFO: Print Configfile: '/home/kkobold/printer_data/config/crowsnest.conf'
+[07/30/24 21:17:15] crowsnest:		[crowsnest]
+[07/30/24 21:17:15] crowsnest:		log_path: /home/kkobold/printer_data/logs/crowsnest.log
+[07/30/24 21:17:15] crowsnest:		log_level: verbose
+[07/30/24 21:17:15] crowsnest:		delete_log: false
+[07/30/24 21:17:15] crowsnest:		no_proxy: true
+[07/30/24 21:17:15] crowsnest:		
+[07/30/24 21:17:15] crowsnest:		[cam 1]
+[07/30/24 21:17:15] crowsnest:		mode: ustreamer
+[07/30/24 21:17:15] crowsnest:		
+[07/30/24 21:17:15] crowsnest:		enable_rtsp: false
+[07/30/24 21:17:15] crowsnest:		rtsp_port: 8554
+[07/30/24 21:17:15] crowsnest:		port: 8080
+[07/30/24 21:17:15] crowsnest:		device: /dev/video1
+[07/30/24 21:17:15] crowsnest:		resolution: 1280x720
+[07/30/24 21:17:15] crowsnest:		max_fps: 24
+[07/30/24 21:17:15] crowsnest: INFO: Detect available Devices
+[07/30/24 21:17:15] crowsnest: ERROR: No usable Devices Found. Stopping crowsnest.
