@@ -244,3 +244,24 @@ Content-Type: multipart/form-data; boundary="boundary_.oOo._QrRTAzNQ76OqwNCr/loR
 2024-08-01 08:44:25,477 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-TFL_b_2024-08-01_08:40:52.gcode
 2024-08-01 08:44:25,549 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-TFL_b_2024-08-01_08:40:52.gcode
 2024-08-01 09:47:43,546 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-08-01 13:37:12,521 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-01 13:38:12,524 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.01 seconds
+2024-08-01 13:49:34,022 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home axis first: 228.000 220.000 19.800 [40126.842]
+2024-08-01 13:50:42,646 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-01 13:56:12,282 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-08-01 13:56:43,095 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-01 13:57:43,098 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-08-01 13:59:35,392 [application.py:prepare()] - Upload Request Received from 192.168.2.183
+Content-Type: multipart/form-data; boundary="boundary_.oOo._cXNMQP+959Zv6gYdnxkH/BAtEya5bZbG"
+2024-08-01 13:59:35,595 [application.py:post()] - Processing Uploaded File: Marta_GABS_ENG-TFL_b_2024-08-01_13:49:13.ufp
+2024-08-01 13:59:35,931 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is enabled
+
+2024-08-01 13:59:36,338 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2024-08-01 13:59:36,341 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Marta_GABS_ENG-TFL_b_2024-08-01_13:49:13.gcode, sliced by Cura
+
+2024-08-01 13:59:50,435 [shell_command.py:_check_proc_success()] - Command (/home/kkobold/moonraker-env/bin/python /home/kkobold/moonraker/moonraker/components/file_manager/metadata.py -p /home/kkobold/printer_data/gcodes -f "Marta_GABS_ENG-TFL_b_2024-08-01_13:49:13.gcode" -u "/tmp/moonraker.upload-58026.mru" --check-objects) successfully finished
+2024-08-01 13:59:50,436 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-TFL_b_2024-08-01_13:49:13.gcode
+2024-08-01 13:59:50,459 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 15069.13ms
+2024-08-01 13:59:50,543 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-TFL_b_2024-08-01_13:49:13.gcode
+2024-08-01 15:02:43,621 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
