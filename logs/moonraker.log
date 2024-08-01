@@ -217,3 +217,29 @@ Klipper Version: v0.12.0-267-g12cd1d9e-dirty
 2024-08-01 02:07:11,731 [websockets.py:on_close()] - Websocket Closed: ID: 281473638635120 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.97
 2024-08-01 03:07:43,450 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
 2024-08-01 03:07:43,450 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.138
+2024-08-01 06:19:08,439 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-08-01 06:19:08,535 [application.py:log_request()] - 101 GET /websocket?token=L5K4OPLRWXF4JMY3M24FEZQ63XN6ZYYA (192.168.2.183) [_TRUSTED_USER_] 4.87ms
+2024-08-01 06:19:08,536 [websockets.py:open()] - Websocket Opened: ID: 281473638437360, Proxied: False, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15, Host Name: 192.168.2.135
+2024-08-01 06:19:08,541 [websockets.py:_handle_identify()] - Websocket 281473638437360 Client Identified - Name: fluidd, Version: 1.30.1-62fe404, Type: web
+2024-08-01 06:19:08,543 [file_manager.py:get_file_list()] - Updating File List <config>...
+2024-08-01 07:22:43,509 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-08-01 08:01:19,450 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-08-01 08:34:31,436 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-01 08:35:31,440 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.01 seconds
+2024-08-01 08:36:31,441 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 180.01 seconds
+2024-08-01 08:40:59,986 [application.py:prepare()] - Upload Request Received from 192.168.2.183
+Content-Type: multipart/form-data; boundary="boundary_.oOo._QrRTAzNQ76OqwNCr/loRHes+xpTK0P67"
+2024-08-01 08:41:00,207 [application.py:post()] - Processing Uploaded File: Marta_GABS_ENG-TFL_b_2024-08-01_08:40:52.ufp
+2024-08-01 08:41:00,563 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is enabled
+
+2024-08-01 08:41:00,964 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2024-08-01 08:41:00,966 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Marta_GABS_ENG-TFL_b_2024-08-01_08:40:52.gcode, sliced by Cura
+
+2024-08-01 08:41:14,382 [shell_command.py:_check_proc_success()] - Command (/home/kkobold/moonraker-env/bin/python /home/kkobold/moonraker/moonraker/components/file_manager/metadata.py -p /home/kkobold/printer_data/gcodes -f "Marta_GABS_ENG-TFL_b_2024-08-01_08:40:52.gcode" -u "/tmp/moonraker.upload-38911.mru" --check-objects) successfully finished
+2024-08-01 08:41:14,383 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-TFL_b_2024-08-01_08:40:52.gcode
+2024-08-01 08:41:14,407 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 14423.00ms
+2024-08-01 08:41:14,512 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-TFL_b_2024-08-01_08:40:52.gcode
+2024-08-01 08:43:38,286 [klippy_apis.py:cancel_print()] - Requesting job cancel...
+2024-08-01 08:44:25,477 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-TFL_b_2024-08-01_08:40:52.gcode
+2024-08-01 08:44:25,549 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-TFL_b_2024-08-01_08:40:52.gcode
