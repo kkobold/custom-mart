@@ -234,3 +234,49 @@ System Time: 1722581526.196007, Usage: 3.39%, Memory: 50308 kB
 CPU Temperature: 62.831
 2024-08-02 03:52:06,705 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
 2024-08-02 04:52:43,842 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-08-02 06:20:45,910 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-08-02 06:20:45,957 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-08-02 06:20:46,004 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-08-02 06:20:47,172 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-08-02 06:20:49,596 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-08-02 06:20:49,598 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-08-02 06:20:49,601 [klippy_connection.py:_check_ready()] - 
+Failed automated reset of MCU 'mcu'
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
+2024-08-02 06:20:53,222 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-08-02 06:20:53,280 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-08-02 06:20:54,485 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-08-02 06:20:57,379 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-08-02 06:20:57,381 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-08-02 06:20:57,630 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-08-02 06:20:57,972 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-08-02 06:20:58,393 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-08-02 06:22:14,972 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-02 06:23:14,975 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-08-02 06:30:10,080 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-08-02 06:30:10,096 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-08-02 06:30:11,092 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-08-02 06:30:14,186 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-08-02 06:30:14,188 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-08-02 06:30:14,437 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-08-02 06:30:14,703 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-08-02 06:30:15,189 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-08-02 06:30:26,921 [application.py:prepare()] - Upload Request Received from 192.168.2.183
+Content-Type: multipart/form-data; boundary="boundary_.oOo._/s3kU8xKAxZoslk5WeP2wC4oDyLEXjq8"
+2024-08-02 06:30:27,107 [application.py:post()] - Processing Uploaded File: Marta_GABS_ENG-TFL_b_2024-08-02_06:25:43.ufp
+2024-08-02 06:30:27,440 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is enabled
+
+2024-08-02 06:30:27,774 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2024-08-02 06:30:27,776 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Marta_GABS_ENG-TFL_b_2024-08-02_06:25:43.gcode, sliced by Cura
+
+2024-08-02 06:30:39,547 [shell_command.py:_check_proc_success()] - Command (/home/kkobold/moonraker-env/bin/python /home/kkobold/moonraker/moonraker/components/file_manager/metadata.py -p /home/kkobold/printer_data/gcodes -f "Marta_GABS_ENG-TFL_b_2024-08-02_06:25:43.gcode" -u "/tmp/moonraker.upload-117478.mru" --check-objects) successfully finished
+2024-08-02 06:30:39,548 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-TFL_b_2024-08-02_06:25:43.gcode
+2024-08-02 06:30:39,571 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 12652.64ms
+2024-08-02 06:30:39,766 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-TFL_b_2024-08-02_06:25:43.gcode
+2024-08-02 07:19:38,786 [klippy_apis.py:cancel_print()] - Requesting job cancel...
+2024-08-02 07:32:43,881 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
