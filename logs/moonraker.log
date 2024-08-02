@@ -265,3 +265,23 @@ Content-Type: multipart/form-data; boundary="boundary_.oOo._cXNMQP+959Zv6gYdnxkH
 2024-08-01 13:59:50,459 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 15069.13ms
 2024-08-01 13:59:50,543 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-TFL_b_2024-08-01_13:49:13.gcode
 2024-08-01 15:02:43,621 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-08-01 19:36:53,212 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-01 19:36:58,765 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-01 19:37:02,066 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-01 19:37:53,215 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-08-01 19:37:58,767 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-08-01 19:38:02,068 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-08-01 19:46:23,215 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-08-01 19:46:23,270 [application.py:prepare()] - Upload Request Received from 192.168.2.183
+Content-Type: multipart/form-data; boundary="boundary_.oOo._CfXv2DVxls19AOrbGcKy24pvut+k/CfF"
+2024-08-01 19:46:23,395 [application.py:post()] - Processing Uploaded File: Marta_GABS_ENG-TFL_b_2024-08-01_19:45:36.ufp
+2024-08-01 19:46:23,728 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is enabled
+
+2024-08-01 19:46:23,969 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2024-08-01 19:46:23,971 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Marta_GABS_ENG-TFL_b_2024-08-01_19:45:36.gcode, sliced by Cura
+
+2024-08-01 19:46:30,558 [shell_command.py:_check_proc_success()] - Command (/home/kkobold/moonraker-env/bin/python /home/kkobold/moonraker/moonraker/components/file_manager/metadata.py -p /home/kkobold/printer_data/gcodes -f "Marta_GABS_ENG-TFL_b_2024-08-01_19:45:36.gcode" -u "/tmp/moonraker.upload-78834.mru" --check-objects) successfully finished
+2024-08-01 19:46:30,559 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-TFL_b_2024-08-01_19:45:36.gcode
+2024-08-01 19:46:30,582 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 7313.77ms
+2024-08-01 19:46:30,634 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-TFL_b_2024-08-01_19:45:36.gcode
