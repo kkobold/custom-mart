@@ -285,3 +285,20 @@ Content-Type: multipart/form-data; boundary="boundary_.oOo._CfXv2DVxls19AOrbGcKy
 2024-08-01 19:46:30,559 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-TFL_b_2024-08-01_19:45:36.gcode
 2024-08-01 19:46:30,582 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 7313.77ms
 2024-08-01 19:46:30,634 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-TFL_b_2024-08-01_19:45:36.gcode
+2024-08-01 21:32:43,736 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-08-01 22:03:49,278 [klippy_apis.py:cancel_print()] - Requesting job cancel...
+2024-08-01 22:31:45,065 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-08-01 22:31:45,075 [application.py:prepare()] - Upload Request Received from 192.168.2.183
+Content-Type: multipart/form-data; boundary="boundary_.oOo._RinNgOfzIGdCoKWm3FzzUiP+34hHj11F"
+2024-08-01 22:31:45,418 [application.py:post()] - Processing Uploaded File: Marta_GABS_ENG-TFL_b_2024-08-01_22:31:41.ufp
+2024-08-01 22:31:45,750 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is enabled
+
+2024-08-01 22:31:46,422 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2024-08-01 22:31:46,425 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Marta_GABS_ENG-TFL_b_2024-08-01_22:31:41.gcode, sliced by Cura
+
+2024-08-01 22:32:12,019 [shell_command.py:_check_proc_success()] - Command (/home/kkobold/moonraker-env/bin/python /home/kkobold/moonraker/moonraker/components/file_manager/metadata.py -p /home/kkobold/printer_data/gcodes -f "Marta_GABS_ENG-TFL_b_2024-08-01_22:31:41.gcode" -u "/tmp/moonraker.upload-88756.mru" --check-objects) successfully finished
+2024-08-01 22:32:12,020 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-TFL_b_2024-08-01_22:31:41.gcode
+2024-08-01 22:32:12,043 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 26970.11ms
+2024-08-01 22:32:12,203 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-TFL_b_2024-08-01_22:31:41.gcode
+2024-08-01 23:32:43,764 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
