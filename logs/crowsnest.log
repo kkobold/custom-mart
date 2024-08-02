@@ -3289,3 +3289,69 @@
 [07/31/24 21:53:38] crowsnest:		max_fps: 24
 [07/31/24 21:53:38] crowsnest: INFO: Detect available Devices
 [07/31/24 21:53:38] crowsnest: ERROR: No usable Devices Found. Stopping crowsnest.
+[08/02/24 09:17:07] crowsnest: crowsnest - A webcam Service for multiple Cams and Stream Services.
+[08/02/24 09:17:07] crowsnest: Version: v4.1.9-1-gd75a3ae
+[08/02/24 09:17:07] crowsnest: Prepare Startup ...
+[08/02/24 09:17:07] crowsnest: INFO: Host information:
+[08/02/24 09:17:07] crowsnest: Host Info: Distribution: Debian GNU/Linux 11 (bullseye)
+[08/02/24 09:17:07] crowsnest: Host Info: Kernel: Linux 5.16.17-sun50iw6 aarch64
+[08/02/24 09:17:07] crowsnest: Host Info: Available CPU Cores: 4
+[08/02/24 09:17:07] crowsnest: Host Info: Available Memory: 2032516 kB
+[08/02/24 09:17:07] crowsnest: Host Info: Diskspace (avail. / total): 1.2G / 7.0G
+[08/02/24 09:17:08] crowsnest: INFO: Checking Dependencies
+[08/02/24 09:17:08] crowsnest: Dependency: 'crudini' found in /usr/bin/crudini.
+[08/02/24 09:17:08] crowsnest: Dependency: 'find' found in /usr/bin/find.
+[08/02/24 09:17:08] crowsnest: Dependency: 'xargs' found in /usr/bin/xargs.
+[08/02/24 09:17:08] crowsnest: Dependency: 'ustreamer' found in bin/ustreamer/src/ustreamer.bin.
+[08/02/24 09:17:08] crowsnest: Version Control: ustreamer is up to date. (v6.10)
+[08/02/24 09:17:08] crowsnest: INFO: Print Configfile: '/home/kkobold/printer_data/config/crowsnest.conf'
+[08/02/24 09:17:08] crowsnest:		[crowsnest]
+[08/02/24 09:17:08] crowsnest:		log_path: /home/kkobold/printer_data/logs/crowsnest.log
+[08/02/24 09:17:08] crowsnest:		log_level: verbose
+[08/02/24 09:17:08] crowsnest:		delete_log: false
+[08/02/24 09:17:08] crowsnest:		no_proxy: true
+[08/02/24 09:17:08] crowsnest:		
+[08/02/24 09:17:08] crowsnest:		[cam 1]
+[08/02/24 09:17:08] crowsnest:		mode: ustreamer
+[08/02/24 09:17:08] crowsnest:		
+[08/02/24 09:17:08] crowsnest:		enable_rtsp: false
+[08/02/24 09:17:08] crowsnest:		rtsp_port: 8554
+[08/02/24 09:17:08] crowsnest:		port: 8080
+[08/02/24 09:17:08] crowsnest:		device: /dev/video1
+[08/02/24 09:17:08] crowsnest:		resolution: 1280x720
+[08/02/24 09:17:08] crowsnest:		max_fps: 24
+[08/02/24 09:17:08] crowsnest: INFO: Detect available Devices
+[08/02/24 09:17:08] crowsnest: ERROR: No usable Devices Found. Stopping crowsnest.
+[08/02/24 09:17:14] crowsnest: crowsnest - A webcam Service for multiple Cams and Stream Services.
+[08/02/24 09:17:14] crowsnest: Version: v4.1.9-1-gd75a3ae
+[08/02/24 09:17:14] crowsnest: Prepare Startup ...
+[08/02/24 09:17:14] crowsnest: INFO: Host information:
+[08/02/24 09:17:14] crowsnest: Host Info: Distribution: Debian GNU/Linux 11 (bullseye)
+[08/02/24 09:17:14] crowsnest: Host Info: Kernel: Linux 5.16.17-sun50iw6 aarch64
+[08/02/24 09:17:14] crowsnest: Host Info: Available CPU Cores: 4
+[08/02/24 09:17:14] crowsnest: Host Info: Available Memory: 2032516 kB
+[08/02/24 09:17:14] crowsnest: Host Info: Diskspace (avail. / total): 1.2G / 7.0G
+[08/02/24 09:17:14] crowsnest: INFO: Checking Dependencies
+[08/02/24 09:17:14] crowsnest: Dependency: 'crudini' found in /usr/bin/crudini.
+[08/02/24 09:17:14] crowsnest: Dependency: 'find' found in /usr/bin/find.
+[08/02/24 09:17:15] crowsnest: Dependency: 'xargs' found in /usr/bin/xargs.
+[08/02/24 09:17:15] crowsnest: Dependency: 'ustreamer' found in bin/ustreamer/src/ustreamer.bin.
+[08/02/24 09:17:15] crowsnest: Version Control: ustreamer is up to date. (v6.10)
+[08/02/24 09:17:15] crowsnest: INFO: Print Configfile: '/home/kkobold/printer_data/config/crowsnest.conf'
+[08/02/24 09:17:15] crowsnest:		[crowsnest]
+[08/02/24 09:17:15] crowsnest:		log_path: /home/kkobold/printer_data/logs/crowsnest.log
+[08/02/24 09:17:15] crowsnest:		log_level: verbose
+[08/02/24 09:17:15] crowsnest:		delete_log: false
+[08/02/24 09:17:15] crowsnest:		no_proxy: true
+[08/02/24 09:17:15] crowsnest:		
+[08/02/24 09:17:15] crowsnest:		[cam 1]
+[08/02/24 09:17:15] crowsnest:		mode: ustreamer
+[08/02/24 09:17:15] crowsnest:		
+[08/02/24 09:17:15] crowsnest:		enable_rtsp: false
+[08/02/24 09:17:15] crowsnest:		rtsp_port: 8554
+[08/02/24 09:17:15] crowsnest:		port: 8080
+[08/02/24 09:17:15] crowsnest:		device: /dev/video1
+[08/02/24 09:17:15] crowsnest:		resolution: 1280x720
+[08/02/24 09:17:15] crowsnest:		max_fps: 24
+[08/02/24 09:17:15] crowsnest: INFO: Detect available Devices
+[08/02/24 09:17:15] crowsnest: ERROR: No usable Devices Found. Stopping crowsnest.
