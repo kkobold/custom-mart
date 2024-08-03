@@ -215,3 +215,6 @@ Content-Type: multipart/form-data; boundary="boundary_.oOo._TnYQ/PzTlj8sNB/8ppsc
 2024-08-03 08:47:56,883 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-TFR_b_2024-08-03_08:38:37.gcode
 2024-08-03 08:47:56,910 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 27212.13ms
 2024-08-03 08:47:57,150 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-TFR_b_2024-08-03_08:38:37.gcode
+2024-08-03 09:48:39,009 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-08-03 10:47:30,182 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-08-03 11:48:39,036 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
