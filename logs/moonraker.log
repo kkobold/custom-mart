@@ -199,3 +199,19 @@ Git Repo Klipper-Adaptive-Meshing-Purging: No warnings detected
 Git Repo crowsnest: No warnings detected
 Klipper Version: v0.12.0-267-g12cd1d9e-dirty
 2024-08-03 01:48:38,885 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-08-03 08:39:46,573 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-03 08:40:46,576 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-08-03 08:47:29,687 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-08-03 08:47:29,699 [application.py:prepare()] - Upload Request Received from 192.168.2.183
+Content-Type: multipart/form-data; boundary="boundary_.oOo._TnYQ/PzTlj8sNB/8ppscL4o32iJ4vZPQ"
+2024-08-03 08:47:30,033 [application.py:post()] - Processing Uploaded File: Marta_GABS_ENG-TFR_b_2024-08-03_08:38:37.ufp
+2024-08-03 08:47:30,410 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is enabled
+
+2024-08-03 08:47:31,101 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2024-08-03 08:47:31,104 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Marta_GABS_ENG-TFR_b_2024-08-03_08:38:37.gcode, sliced by Cura
+
+2024-08-03 08:47:56,882 [shell_command.py:_check_proc_success()] - Command (/home/kkobold/moonraker-env/bin/python /home/kkobold/moonraker/moonraker/components/file_manager/metadata.py -p /home/kkobold/printer_data/gcodes -f "Marta_GABS_ENG-TFR_b_2024-08-03_08:38:37.gcode" -u "/tmp/moonraker.upload-33845.mru" --check-objects) successfully finished
+2024-08-03 08:47:56,883 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-TFR_b_2024-08-03_08:38:37.gcode
+2024-08-03 08:47:56,910 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 27212.13ms
+2024-08-03 08:47:57,150 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-TFR_b_2024-08-03_08:38:37.gcode
