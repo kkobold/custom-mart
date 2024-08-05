@@ -304,3 +304,24 @@ Pinned Commit: None
 2024-08-05 06:32:14,826 [base_deploy.py:log_info()] - Git Repo Klipper-Adaptive-Meshing-Purging: Channel: dev
 2024-08-05 06:32:14,826 [base_deploy.py:log_info()] - Git Repo Klipper-Adaptive-Meshing-Purging: Validity check for git repo passed
 2024-08-05 06:32:14,827 [base_deploy.py:log_info()] - Git Repo crowsnest: Next refresh in: 13 Hours, 23 Minutes, 58 Seconds
+2024-08-05 06:32:17,427 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.2.135
+2024-08-05 06:32:37,447 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.2.135
+2024-08-05 06:32:47,458 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.2.135
+2024-08-05 06:33:26,027 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-08-05 06:33:26,142 [application.py:log_request()] - 101 GET /websocket?token=GEQTFBFA7GTCPQ5XTW2TOMQAJNBU7W5J (192.168.2.183) [_TRUSTED_USER_] 7.30ms
+2024-08-05 06:33:26,144 [websockets.py:open()] - Websocket Opened: ID: 281473590413008, Proxied: False, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15, Host Name: 192.168.2.135
+2024-08-05 06:33:26,153 [websockets.py:_handle_identify()] - Websocket 281473590413008 Client Identified - Name: fluidd, Version: 1.30.1-62fe404, Type: web
+2024-08-05 06:33:26,154 [file_manager.py:get_file_list()] - Updating File List <config>...
+2024-08-05 06:33:57,377 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Endstop z still triggered after retract
+2024-08-05 06:36:03,321 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Endstop z still triggered after retract
+2024-08-05 06:36:41,466 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Endstop z still triggered after retract
+2024-08-05 06:37:55,979 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Endstop z still triggered after retract
+2024-08-05 06:42:46,255 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-05 06:43:46,257 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-08-05 06:44:46,258 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 180.01 seconds
+2024-08-05 07:37:06,820 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-08-05 07:47:34,990 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home axis first: 228.000 220.000 20.000 [0.000]
+2024-08-05 07:48:44,462 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-05 07:49:34,998 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-05 07:49:44,465 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-08-05 07:50:35,001 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
