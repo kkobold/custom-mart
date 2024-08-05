@@ -1,4 +1,4 @@
--------------------- Log Start | Sun Aug  4 03:28:39 2024 --------------------
+-------------------- Log Start | Mon Aug  5 09:32:12 2024 --------------------
 platform: Linux-5.16.17-sun50iw6-aarch64-with-glibc2.31
 data_path: /home/kkobold/printer_data
 is_default_data_path: False
@@ -107,7 +107,7 @@ All Configuration Files:
 /home/kkobold/printer_data/config/moonraker.conf
 #################################################################
 Loading Sqlite database provider. Sqlite Version: 3.34.1
-Unsafe Shutdown Count: 57
+Unsafe Shutdown Count: 58
 
 System Info:
 
@@ -164,8 +164,8 @@ unit_name: moonraker.service
 is_default: True
 manager: systemd
 Properties:
-**Requires=['system.slice', 'sysinit.target', 'network-online.target', '-.mount']
-**After=['-.mount', 'network-online.target', 'sysinit.target', 'systemd-journald.socket', 'system.slice', 'basic.target']
+**Requires=['sysinit.target', 'system.slice', 'network-online.target', '-.mount']
+**After=['system.slice', '-.mount', 'basic.target', 'network-online.target', 'sysinit.target', 'systemd-journald.socket']
 **SupplementaryGroups=['moonraker-admin']
 **EnvironmentFiles=/home/kkobold/printer_data/systemd/moonraker.env
 **ExecStart=/home/kkobold/moonraker-env/bin/python $MOONRAKER_ARGS
@@ -179,8 +179,8 @@ unit_name: klipper.service
 is_default: True
 manager: systemd
 Properties:
-**Requires=['sysinit.target', 'system.slice', '-.mount']
-**After=['systemd-journald.socket', 'network-online.target', '-.mount', 'basic.target', 'sysinit.target', 'system.slice', 'klipper-mcu.service']
+**Requires=['sysinit.target', '-.mount', 'system.slice']
+**After=['network-online.target', '-.mount', 'klipper-mcu.service', 'basic.target', 'sysinit.target', 'systemd-journald.socket', 'system.slice']
 **SupplementaryGroups=[]
 **EnvironmentFiles=/home/kkobold/printer_data/systemd/klipper.env
 **ExecStart=/home/kkobold/klippy-env/bin/python $KLIPPER_ARGS
@@ -198,113 +198,109 @@ Git Repo led_effect: Warnings detected:
 Git Repo Klipper-Adaptive-Meshing-Purging: No warnings detected
 Git Repo crowsnest: No warnings detected
 Klipper Version: v0.12.0-267-g12cd1d9e-dirty
-2024-08-04 00:28:39,219 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
-2024-08-04 05:44:24,901 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
-2024-08-04 07:38:39,311 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
-2024-08-04 09:23:15,648 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
-2024-08-04 09:23:15,654 [proc_stats.py:_handle_shutdown()] - 
-Moonraker System Usage Statistics:
-System Time: 1722774165.641592, Usage: 2.88%, Memory: 50872 kB
-System Time: 1722774166.642462, Usage: 3.2%, Memory: 50872 kB
-System Time: 1722774167.640727, Usage: 3.03%, Memory: 50872 kB
-System Time: 1722774168.640785, Usage: 2.72%, Memory: 50872 kB
-System Time: 1722774169.642246, Usage: 3.29%, Memory: 50872 kB
-System Time: 1722774170.647259, Usage: 4.61%, Memory: 50872 kB
-System Time: 1722774171.644017, Usage: 3.13%, Memory: 50872 kB
-System Time: 1722774172.648233, Usage: 2.84%, Memory: 50872 kB
-System Time: 1722774173.646232, Usage: 3.05%, Memory: 50872 kB
-System Time: 1722774174.646769, Usage: 2.73%, Memory: 50872 kB
-System Time: 1722774175.647440, Usage: 2.72%, Memory: 50872 kB
-System Time: 1722774176.651318, Usage: 2.85%, Memory: 50872 kB
-System Time: 1722774177.652662, Usage: 3.18%, Memory: 50872 kB
-System Time: 1722774178.654085, Usage: 3.18%, Memory: 50872 kB
-System Time: 1722774179.655340, Usage: 3.51%, Memory: 50872 kB
-System Time: 1722774180.653685, Usage: 5.59%, Memory: 50872 kB
-System Time: 1722774181.653901, Usage: 2.67%, Memory: 50872 kB
-System Time: 1722774182.659018, Usage: 2.79%, Memory: 50872 kB
-System Time: 1722774183.658987, Usage: 3.25%, Memory: 50872 kB
-System Time: 1722774184.660279, Usage: 3.18%, Memory: 50872 kB
-System Time: 1722774185.658190, Usage: 3.06%, Memory: 50872 kB
-System Time: 1722774186.663957, Usage: 2.83%, Memory: 50872 kB
-System Time: 1722774187.664492, Usage: 3.25%, Memory: 50872 kB
-System Time: 1722774188.662752, Usage: 3.07%, Memory: 50872 kB
-System Time: 1722774189.664167, Usage: 3.08%, Memory: 50872 kB
-System Time: 1722774190.665789, Usage: 4.54%, Memory: 50872 kB
-System Time: 1722774191.666574, Usage: 2.78%, Memory: 50872 kB
-System Time: 1722774192.667414, Usage: 2.72%, Memory: 50872 kB
-System Time: 1722774193.668226, Usage: 2.65%, Memory: 50872 kB
-System Time: 1722774194.672628, Usage: 2.76%, Memory: 50872 kB
-CPU Temperature: 59.269
-2024-08-04 09:23:15,740 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
-2024-08-04 09:24:35,680 [klippy_connection.py:close()] - Error closing Klippy Unix Socket
-Traceback (most recent call last):
-  File "/home/kkobold/moonraker/moonraker/components/klippy_connection.py", line 769, in close
-    await self.writer.wait_closed()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 359, in wait_closed
-    await self._protocol._get_close_waiter(self)
-  File "/home/kkobold/moonraker/moonraker/components/klippy_connection.py", line 172, in _read_stream
-    data = await reader.readuntil(b'\x03')
-  File "/usr/lib/python3.9/asyncio/streams.py", line 632, in readuntil
-    await self._wait_for_data('readuntil')
-  File "/usr/lib/python3.9/asyncio/streams.py", line 517, in _wait_for_data
-    await self._waiter
-  File "/usr/lib/python3.9/asyncio/selector_events.py", line 856, in _read_ready__data_received
-    data = self._sock.recv(self.max_size)
-ConnectionResetError: [Errno 104] Connection reset by peer
-2024-08-04 09:24:35,681 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
-2024-08-04 09:24:35,697 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Disconnected
-2024-08-04 09:24:35,777 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
-2024-08-04 09:24:36,762 [klippy_connection.py:_do_connect()] - Klippy Connection Established
-2024-08-04 09:24:39,877 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
-2024-08-04 09:24:39,881 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
-2024-08-04 09:24:40,128 [job_state.py:_handle_started()] - Job state initialized: standby
-2024-08-04 09:24:40,406 [klippy_connection.py:_check_ready()] - Klippy ready
-2024-08-04 09:24:40,891 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
-2024-08-04 09:27:46,028 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
-2024-08-04 09:28:46,030 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
-2024-08-04 09:31:58,314 [application.py:prepare()] - Upload Request Received from 192.168.2.183
-Content-Type: multipart/form-data; boundary="boundary_.oOo._cSvLMmqF5uBtn8bS6b3+QJ7K3aL9zsIX"
-2024-08-04 09:31:58,768 [application.py:post()] - Processing Uploaded File: Marta_GABS_ENG-BRFB_b_2024-08-04_09:31:54.ufp
-2024-08-04 09:31:59,102 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is enabled
-
-2024-08-04 09:32:00,008 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
-
-2024-08-04 09:32:00,010 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Marta_GABS_ENG-BRFB_b_2024-08-04_09:31:54.gcode, sliced by Cura
-
-2024-08-04 09:32:37,858 [shell_command.py:_check_proc_success()] - Command (/home/kkobold/moonraker-env/bin/python /home/kkobold/moonraker/moonraker/components/file_manager/metadata.py -p /home/kkobold/printer_data/gcodes -f "Marta_GABS_ENG-BRFB_b_2024-08-04_09:31:54.gcode" -u "/tmp/moonraker.upload-122913.mru" --check-objects) successfully finished
-2024-08-04 09:32:37,859 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-BRFB_b_2024-08-04_09:31:54.gcode
-2024-08-04 09:32:37,885 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 39572.54ms
-2024-08-04 09:32:37,935 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-BRFB_b_2024-08-04_09:31:54.gcode
-2024-08-04 10:33:39,356 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
-2024-08-04 18:38:40,101 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
-2024-08-04 19:42:13,532 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
-2024-08-04 19:43:13,534 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
-2024-08-04 19:43:39,482 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
-2024-08-04 19:53:36,924 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
-2024-08-04 19:53:36,953 [application.py:prepare()] - Upload Request Received from 192.168.2.183
-Content-Type: multipart/form-data; boundary="boundary_.oOo._ml8UlFWhJCMhHRluRAob00C8cB+tI1x/"
-2024-08-04 19:53:37,086 [application.py:post()] - Processing Uploaded File: Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:13:44.ufp
-2024-08-04 19:53:37,420 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is enabled
-
-2024-08-04 19:53:37,750 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
-
-2024-08-04 19:53:37,753 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:13:44.gcode, sliced by Cura
-
-2024-08-04 19:53:49,950 [shell_command.py:_check_proc_success()] - Command (/home/kkobold/moonraker-env/bin/python /home/kkobold/moonraker/moonraker/components/file_manager/metadata.py -p /home/kkobold/printer_data/gcodes -f "Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:13:44.gcode" -u "/tmp/moonraker.upload-160212.mru" --check-objects) successfully finished
-2024-08-04 19:53:49,951 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:13:44.gcode
-2024-08-04 19:53:49,976 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 13025.03ms
-2024-08-04 19:53:50,211 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:13:44.gcode
-2024-08-04 19:55:41,782 [klippy_apis.py:cancel_print()] - Requesting job cancel...
-2024-08-04 20:00:59,004 [application.py:prepare()] - Upload Request Received from 192.168.2.183
-Content-Type: multipart/form-data; boundary="boundary_.oOo._pNVGRUaenesbawODAPG7ZjpWUq5U3wiO"
-2024-08-04 20:00:59,190 [application.py:post()] - Processing Uploaded File: Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:56:22.ufp
-2024-08-04 20:00:59,532 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is enabled
-
-2024-08-04 20:00:59,867 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
-
-2024-08-04 20:00:59,869 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:56:22.gcode, sliced by Cura
-
-2024-08-04 20:01:12,330 [shell_command.py:_check_proc_success()] - Command (/home/kkobold/moonraker-env/bin/python /home/kkobold/moonraker/moonraker/components/file_manager/metadata.py -p /home/kkobold/printer_data/gcodes -f "Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:56:22.gcode" -u "/tmp/moonraker.upload-160654.mru" --check-objects) successfully finished
-2024-08-04 20:01:12,331 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:56:22.gcode
-2024-08-04 20:01:12,355 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 13352.76ms
-2024-08-04 20:01:12,471 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:56:22.gcode
+2024-08-05 06:32:12,290 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper fetch origin --prune --progress) successfully finished
+2024-08-05 06:32:12,311 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper merge-base --is-ancestor HEAD origin/master) successfully finished
+2024-08-05 06:32:12,329 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper rev-parse HEAD) successfully finished
+2024-08-05 06:32:12,482 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper describe --always --tags --long --dirty --abbrev=8) successfully finished
+2024-08-05 06:32:12,501 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper rev-parse origin/master) successfully finished
+2024-08-05 06:32:12,645 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper describe origin/master --always --tags --long --abbrev=8) successfully finished
+2024-08-05 06:32:12,665 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper rev-list HEAD..d7d9092a920b3bd2bede4b570c66ddaa52df3f19 --count) successfully finished
+2024-08-05 06:32:12,686 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper log 12cd1d9e81c32b26ccc319af1dfc3633438908f1..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2024-08-05 06:32:12,859 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper for-each-ref --count=100 --sort='-creatordate' --contains=HEAD --merged=origin/master --format='%(if)%(*objecttype)%(then)%(*objecttype) %(*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2024-08-05 06:32:12,860 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
+Owner: Klipper3d
+Repository Name: klipper
+Path: /home/kkobold/klipper
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Klipper3d/klipper
+Recovery URL: https://github.com/Klipper3d/klipper
+Current Commit SHA: 12cd1d9e81c32b26ccc319af1dfc3633438908f1
+Upstream Commit SHA: d7d9092a920b3bd2bede4b570c66ddaa52df3f19
+Current Version: v0.12.0-267-g12cd1d9e
+Upstream Version: v0.12.0-274-gd7d9092a
+Rollback Commit: 12cd1d9e81c32b26ccc319af1dfc3633438908f1
+Rollback Branch: master
+Rollback Version: v0.12.0-267-g12cd1d9e
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 7
+Diverged: False
+Pinned Commit: None
+Repo Warnings:
+  Repo has untracked source files: ['klippy/extras/led_effect.py']
+2024-08-05 06:32:12,861 [base_deploy.py:log_info()] - Git Repo klipper: Channel: dev
+2024-08-05 06:32:12,861 [base_deploy.py:log_info()] - Git Repo klipper: Validity check for git repo passed
+2024-08-05 06:32:12,861 [base_deploy.py:log_info()] - Git Repo fluidd-config: Next refresh in: 4 Days, 15 Hours, 45 Minutes, 3 Seconds
+2024-08-05 06:32:12,862 [base_deploy.py:log_info()] - Web Client fluidd: Next refresh in: 4 Days, 15 Hours, 45 Minutes, 3 Seconds
+2024-08-05 06:32:12,862 [base_deploy.py:log_info()] - Git Repo klipper_tmc_autotune: Next refresh in: 4 Days, 16 Hours, 51 Minutes, 31 Seconds
+2024-08-05 06:32:12,899 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper-led_effect status --porcelain -b) successfully finished
+2024-08-05 06:32:12,917 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper-led_effect branch --list --no-color) successfully finished
+2024-08-05 06:32:12,953 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper-led_effect remote get-url origin) successfully finished
+2024-08-05 06:32:13,706 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper-led_effect fetch origin --prune --progress) successfully finished
+2024-08-05 06:32:13,725 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper-led_effect merge-base --is-ancestor HEAD origin/master) successfully finished
+2024-08-05 06:32:13,742 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper-led_effect rev-parse HEAD) successfully finished
+2024-08-05 06:32:13,761 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper-led_effect describe --always --tags --long --dirty --abbrev=8) successfully finished
+2024-08-05 06:32:13,778 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper-led_effect rev-parse origin/master) successfully finished
+2024-08-05 06:32:13,796 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper-led_effect describe origin/master --always --tags --long --abbrev=8) successfully finished
+2024-08-05 06:32:13,814 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/klipper-led_effect rev-list HEAD..03a46eab5670c2934b38093993834f822a56c0fe --count) successfully finished
+2024-08-05 06:32:13,815 [git_deploy.py:log_repo_info()] - Git Repo led_effect Detected:
+Owner: julianschill
+Repository Name: klipper-led_effect
+Path: /home/kkobold/klipper-led_effect
+Remote: origin
+Branch: master
+Remote URL: https://github.com/julianschill/klipper-led_effect.git
+Recovery URL: https://github.com/julianschill/klipper-led_effect.git
+Current Commit SHA: 03a46eab5670c2934b38093993834f822a56c0fe
+Upstream Commit SHA: 03a46eab5670c2934b38093993834f822a56c0fe
+Current Version: v0.0.12-0-g03a46eab-dirty
+Upstream Version: v0.0.12-0-g03a46eab
+Rollback Commit: 03a46eab5670c2934b38093993834f822a56c0fe
+Rollback Branch: master
+Rollback Version: v0.0.12-0-g03a46eab
+Is Dirty: True
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+Repo Warnings:
+  Repo is dirty.  Detected the following modifed files: ['examples/Voron_Stealthburner/stealthburner_led_effects_barf.cfg']
+2024-08-05 06:32:13,816 [base_deploy.py:log_info()] - Git Repo led_effect: Channel: dev
+2024-08-05 06:32:13,816 [base_deploy.py:log_info()] - Git Repo led_effect: Repo validation check failed, updates disabled
+2024-08-05 06:32:13,848 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/Klipper-Adaptive-Meshing-Purging status --porcelain -b) successfully finished
+2024-08-05 06:32:13,866 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/Klipper-Adaptive-Meshing-Purging branch --list --no-color) successfully finished
+2024-08-05 06:32:13,899 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/Klipper-Adaptive-Meshing-Purging remote get-url origin) successfully finished
+2024-08-05 06:32:14,702 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/Klipper-Adaptive-Meshing-Purging fetch origin --prune --progress) successfully finished
+2024-08-05 06:32:14,721 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/Klipper-Adaptive-Meshing-Purging merge-base --is-ancestor HEAD origin/main) successfully finished
+2024-08-05 06:32:14,738 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/Klipper-Adaptive-Meshing-Purging rev-parse HEAD) successfully finished
+2024-08-05 06:32:14,764 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/Klipper-Adaptive-Meshing-Purging describe --always --tags --long --dirty --abbrev=8) successfully finished
+2024-08-05 06:32:14,783 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/Klipper-Adaptive-Meshing-Purging rev-parse origin/main) successfully finished
+2024-08-05 06:32:14,805 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/Klipper-Adaptive-Meshing-Purging describe origin/main --always --tags --long --abbrev=8) successfully finished
+2024-08-05 06:32:14,825 [shell_command.py:_check_proc_success()] - Command (git -C /home/kkobold/Klipper-Adaptive-Meshing-Purging rev-list HEAD..d657271f13fc429b5ca36a4f8956b67c9ddf0558 --count) successfully finished
+2024-08-05 06:32:14,826 [git_deploy.py:log_repo_info()] - Git Repo Klipper-Adaptive-Meshing-Purging Detected:
+Owner: kyleisah
+Repository Name: Klipper-Adaptive-Meshing-Purging
+Path: /home/kkobold/Klipper-Adaptive-Meshing-Purging
+Remote: origin
+Branch: main
+Remote URL: https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+Recovery URL: https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+Current Commit SHA: d657271f13fc429b5ca36a4f8956b67c9ddf0558
+Upstream Commit SHA: d657271f13fc429b5ca36a4f8956b67c9ddf0558
+Current Version: v1.1.2-12-gd657271f
+Upstream Version: v1.1.2-12-gd657271f
+Rollback Commit: d657271f13fc429b5ca36a4f8956b67c9ddf0558
+Rollback Branch: main
+Rollback Version: v1.1.2-12-gd657271f
+Is Dirty: False
+Is Detached: False
+Is Shallow: False
+Commits Behind Count: 0
+Diverged: False
+Pinned Commit: None
+2024-08-05 06:32:14,826 [base_deploy.py:log_info()] - Git Repo Klipper-Adaptive-Meshing-Purging: Channel: dev
+2024-08-05 06:32:14,826 [base_deploy.py:log_info()] - Git Repo Klipper-Adaptive-Meshing-Purging: Validity check for git repo passed
+2024-08-05 06:32:14,827 [base_deploy.py:log_info()] - Git Repo crowsnest: Next refresh in: 13 Hours, 23 Minutes, 58 Seconds
