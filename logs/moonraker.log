@@ -329,3 +329,21 @@ Pinned Commit: None
 2024-08-05 11:37:06,881 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
 2024-08-05 11:53:54,022 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home axis first: 228.000 220.000 20.000 [0.000]
 2024-08-05 11:54:57,467 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-05 13:22:47,021 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-08-05 13:22:47,064 [application.py:prepare()] - Upload Request Received from 192.168.2.183
+Content-Type: multipart/form-data; boundary="boundary_.oOo._t607mGzCh2PhMeTU80zm/Ii35toP6wta"
+2024-08-05 13:22:47,323 [application.py:post()] - Processing Uploaded File: Marta_GABS_ENG-BRR_2040_350_2024-08-04_22:22:18.ufp
+2024-08-05 13:22:47,692 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is enabled
+
+2024-08-05 13:22:48,144 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2024-08-05 13:22:48,147 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Marta_GABS_ENG-BRR_2040_350_2024-08-04_22:22:18.gcode, sliced by Cura
+
+2024-08-05 13:23:04,459 [shell_command.py:_check_proc_success()] - Command (/home/kkobold/moonraker-env/bin/python /home/kkobold/moonraker/moonraker/components/file_manager/metadata.py -p /home/kkobold/printer_data/gcodes -f "Marta_GABS_ENG-BRR_2040_350_2024-08-04_22:22:18.gcode" -u "/tmp/moonraker.upload-24654.mru" --check-objects) successfully finished
+2024-08-05 13:23:04,460 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-BRR_2040_350_2024-08-04_22:22:18.gcode
+2024-08-05 13:23:04,487 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 17425.13ms
+2024-08-05 13:23:04,504 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-BRR_2040_350_2024-08-04_22:22:18.gcode
+2024-08-05 14:27:06,921 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-08-05 15:26:48,188 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-08-05 16:18:54,493 [klippy_apis.py:cancel_print()] - Requesting job cancel...
+2024-08-05 16:27:06,946 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
