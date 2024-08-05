@@ -325,3 +325,7 @@ Pinned Commit: None
 2024-08-05 07:49:34,998 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
 2024-08-05 07:49:44,465 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
 2024-08-05 07:50:35,001 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-08-05 10:32:46,318 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-08-05 11:37:06,881 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-08-05 11:53:54,022 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Must home axis first: 228.000 220.000 20.000 [0.000]
+2024-08-05 11:54:57,467 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
