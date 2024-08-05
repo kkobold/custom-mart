@@ -276,3 +276,35 @@ Content-Type: multipart/form-data; boundary="boundary_.oOo._cSvLMmqF5uBtn8bS6b3+
 2024-08-04 09:32:37,885 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 39572.54ms
 2024-08-04 09:32:37,935 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-BRFB_b_2024-08-04_09:31:54.gcode
 2024-08-04 10:33:39,356 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-08-04 18:38:40,101 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-08-04 19:42:13,532 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-04 19:43:13,534 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-08-04 19:43:39,482 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-08-04 19:53:36,924 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-08-04 19:53:36,953 [application.py:prepare()] - Upload Request Received from 192.168.2.183
+Content-Type: multipart/form-data; boundary="boundary_.oOo._ml8UlFWhJCMhHRluRAob00C8cB+tI1x/"
+2024-08-04 19:53:37,086 [application.py:post()] - Processing Uploaded File: Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:13:44.ufp
+2024-08-04 19:53:37,420 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is enabled
+
+2024-08-04 19:53:37,750 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2024-08-04 19:53:37,753 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:13:44.gcode, sliced by Cura
+
+2024-08-04 19:53:49,950 [shell_command.py:_check_proc_success()] - Command (/home/kkobold/moonraker-env/bin/python /home/kkobold/moonraker/moonraker/components/file_manager/metadata.py -p /home/kkobold/printer_data/gcodes -f "Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:13:44.gcode" -u "/tmp/moonraker.upload-160212.mru" --check-objects) successfully finished
+2024-08-04 19:53:49,951 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:13:44.gcode
+2024-08-04 19:53:49,976 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 13025.03ms
+2024-08-04 19:53:50,211 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:13:44.gcode
+2024-08-04 19:55:41,782 [klippy_apis.py:cancel_print()] - Requesting job cancel...
+2024-08-04 20:00:59,004 [application.py:prepare()] - Upload Request Received from 192.168.2.183
+Content-Type: multipart/form-data; boundary="boundary_.oOo._pNVGRUaenesbawODAPG7ZjpWUq5U3wiO"
+2024-08-04 20:00:59,190 [application.py:post()] - Processing Uploaded File: Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:56:22.ufp
+2024-08-04 20:00:59,532 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is enabled
+
+2024-08-04 20:00:59,867 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2024-08-04 20:00:59,869 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:56:22.gcode, sliced by Cura
+
+2024-08-04 20:01:12,330 [shell_command.py:_check_proc_success()] - Command (/home/kkobold/moonraker-env/bin/python /home/kkobold/moonraker/moonraker/components/file_manager/metadata.py -p /home/kkobold/printer_data/gcodes -f "Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:56:22.gcode" -u "/tmp/moonraker.upload-160654.mru" --check-objects) successfully finished
+2024-08-04 20:01:12,331 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:56:22.gcode
+2024-08-04 20:01:12,355 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 13352.76ms
+2024-08-04 20:01:12,471 [job_state.py:_status_update()] - Job Started: Marta_GABS_ENG-BRR_2040_350_2024-08-04_19:56:22.gcode
