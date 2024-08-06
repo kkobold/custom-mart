@@ -683,3 +683,220 @@ Properties:
 2024-08-06 11:51:09,345 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
 2024-08-06 11:51:44,312 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: No trigger on probe after full movement
 2024-08-06 12:51:36,821 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-08-06 13:28:20,001 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-08-06 13:28:20,027 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-08-06 13:28:20,352 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-08-06 13:28:21,011 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-08-06 13:28:24,141 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-08-06 13:28:24,144 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-08-06 13:28:24,392 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-08-06 13:28:24,658 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-08-06 13:28:25,148 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-08-06 13:31:18,364 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-08-06 13:31:18,366 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 503, Message: Klippy Disconnected
+2024-08-06 13:31:18,422 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-08-06 13:31:19,375 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-08-06 13:31:22,503 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-08-06 13:31:22,506 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-08-06 13:31:22,752 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-08-06 13:31:23,018 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-08-06 13:31:23,505 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-08-06 13:35:10,983 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-08-06 13:35:11,003 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-08-06 13:35:11,999 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-08-06 13:35:15,119 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-08-06 13:35:15,122 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-08-06 13:35:15,368 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-08-06 13:35:15,634 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-08-06 13:35:16,121 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-08-06 13:35:45,532 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 228.000 -8.000 20.000 [0.000]
+2024-08-06 13:36:11,082 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-08-06 13:36:11,131 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-08-06 13:36:12,093 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-08-06 13:36:15,215 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-08-06 13:36:15,217 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-08-06 13:36:15,465 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-08-06 13:36:15,732 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-08-06 13:36:16,218 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-08-06 13:36:49,160 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Unable to parse move 'G1 Y'
+2024-08-06 13:38:28,601 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-08-06 13:38:28,617 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-08-06 13:38:29,612 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-08-06 13:38:32,740 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-08-06 13:38:32,742 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-08-06 13:38:32,991 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-08-06 13:38:33,257 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-08-06 13:38:33,744 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-08-06 13:40:54,049 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-06 13:40:58,569 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-06 13:41:54,052 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.01 seconds
+2024-08-06 13:41:58,571 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-08-06 13:41:58,806 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 10.000 -14.000 9.000 [0.000]
+2024-08-06 13:59:03,588 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-08-06 13:59:03,600 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-08-06 13:59:04,598 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-08-06 13:59:07,750 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-08-06 13:59:07,753 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-08-06 13:59:08,001 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-08-06 13:59:08,268 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-08-06 13:59:08,765 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-08-06 14:00:20,435 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-06 14:01:20,437 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-08-06 14:01:49,596 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: No trigger on probe after full movement
+2024-08-06 14:03:02,870 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-08-06 14:03:02,882 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1722963753.185664, Usage: 2.93%, Memory: 46272 kB
+System Time: 1722963754.187346, Usage: 3.1%, Memory: 46272 kB
+System Time: 1722963755.184132, Usage: 3.13%, Memory: 46272 kB
+System Time: 1722963756.188604, Usage: 2.67%, Memory: 46272 kB
+System Time: 1722963757.189564, Usage: 3.14%, Memory: 46272 kB
+System Time: 1722963758.190681, Usage: 3.38%, Memory: 46272 kB
+System Time: 1722963759.188067, Usage: 3.08%, Memory: 46272 kB
+System Time: 1722963760.192073, Usage: 2.49%, Memory: 46272 kB
+System Time: 1722963761.190628, Usage: 4.03%, Memory: 46272 kB
+System Time: 1722963762.192218, Usage: 2.62%, Memory: 46272 kB
+System Time: 1722963763.193871, Usage: 4.61%, Memory: 46272 kB
+System Time: 1722963764.197718, Usage: 2.71%, Memory: 46272 kB
+System Time: 1722963765.198241, Usage: 3.11%, Memory: 46272 kB
+System Time: 1722963766.200017, Usage: 2.8%, Memory: 46272 kB
+System Time: 1722963767.201364, Usage: 3.07%, Memory: 46272 kB
+System Time: 1722963768.198554, Usage: 3.41%, Memory: 46272 kB
+System Time: 1722963769.202805, Usage: 3.24%, Memory: 46272 kB
+System Time: 1722963770.203870, Usage: 3.13%, Memory: 46272 kB
+System Time: 1722963771.204689, Usage: 2.99%, Memory: 46272 kB
+System Time: 1722963772.203731, Usage: 3.01%, Memory: 46272 kB
+System Time: 1722963773.204240, Usage: 4.29%, Memory: 46272 kB
+System Time: 1722963774.205669, Usage: 2.67%, Memory: 46272 kB
+System Time: 1722963775.209142, Usage: 2.82%, Memory: 46272 kB
+System Time: 1722963776.210462, Usage: 3.02%, Memory: 46272 kB
+System Time: 1722963777.211741, Usage: 3.17%, Memory: 46272 kB
+System Time: 1722963778.213048, Usage: 3.15%, Memory: 46272 kB
+System Time: 1722963779.213467, Usage: 2.85%, Memory: 46272 kB
+System Time: 1722963780.215362, Usage: 3.18%, Memory: 46276 kB
+System Time: 1722963781.212873, Usage: 3.18%, Memory: 46276 kB
+System Time: 1722963782.213861, Usage: 2.51%, Memory: 46276 kB
+CPU Temperature: 47.509
+2024-08-06 14:03:03,122 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Probing failed due to printer shutdown
+2024-08-06 14:03:03,124 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Shutdown due to webhooks request
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Printer is shutdown
+
+2024-08-06 14:03:08,647 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-08-06 14:03:08,672 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-08-06 14:03:09,908 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-08-06 14:03:12,812 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-08-06 14:03:12,816 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-08-06 14:03:13,064 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-08-06 14:03:13,350 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-08-06 14:03:13,826 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-08-06 14:04:33,544 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-08-06 14:04:33,567 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-08-06 14:04:34,556 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-08-06 14:04:37,679 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-08-06 14:04:37,682 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-08-06 14:04:37,930 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-08-06 14:04:38,219 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-08-06 14:04:38,683 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-08-06 15:06:36,858 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
+2024-08-06 15:28:51,236 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Move out of range: 10.000 228.000 15.000 [0.000]
+2024-08-06 15:30:11,080 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-08-06 15:30:11,134 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-08-06 15:30:11,567 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-08-06 15:30:12,091 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-08-06 15:30:15,240 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-08-06 15:30:15,242 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-08-06 15:30:15,491 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-08-06 15:30:15,757 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-08-06 15:30:16,244 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-08-06 15:30:41,888 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Endstop z still triggered after retract
+2024-08-06 15:33:28,696 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-06 15:34:28,698 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-08-06 15:47:48,616 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Endstop z still triggered after retract
+2024-08-06 15:49:14,526 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-06 15:50:14,528 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-08-06 16:18:56,609 [application.py:prepare()] - Upload Request Received from 192.168.2.183
+Content-Type: multipart/form-data; boundary="boundary_.oOo._sfG71s1eX6yzkK9FVNA7vMo3euK5WQvB"
+2024-08-06 16:18:56,760 [application.py:post()] - Processing Uploaded File: Marta_GABS_back_2024-08-06_16:18:53.ufp
+2024-08-06 16:18:57,128 [shell_command.py:pipe_data_received()] - INFO:metadata:Object Processing is enabled
+
+2024-08-06 16:18:57,349 [shell_command.py:pipe_data_received()] - INFO:prepropress_cancellation:Shapely not found, complex hulls disabled
+
+2024-08-06 16:18:57,351 [shell_command.py:pipe_data_received()] - INFO:metadata:Performing Object Processing on file: Marta_GABS_back_2024-08-06_16:18:53.gcode, sliced by Cura
+
+2024-08-06 16:19:02,965 [shell_command.py:_check_proc_success()] - Command (/home/kkobold/moonraker-env/bin/python /home/kkobold/moonraker/moonraker/components/file_manager/metadata.py -p /home/kkobold/printer_data/gcodes -f "Marta_GABS_back_2024-08-06_16:18:53.gcode" -u "/tmp/moonraker.upload-19654.mru" --check-objects) successfully finished
+2024-08-06 16:19:02,966 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_back_2024-08-06_16:18:53.gcode
+2024-08-06 16:19:02,990 [application.py:log_request()] - 201 POST /server/files/upload (192.168.2.183) [_TRUSTED_USER_] 6383.71ms
+2024-08-06 16:19:03,044 [job_state.py:_status_update()] - Job Started: Marta_GABS_back_2024-08-06_16:18:53.gcode
+2024-08-06 16:28:54,347 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-08-06 16:28:54,356 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1722972504.411575, Usage: 5.05%, Memory: 46368 kB
+System Time: 1722972505.414943, Usage: 2.5%, Memory: 46368 kB
+System Time: 1722972506.416805, Usage: 2.88%, Memory: 46368 kB
+System Time: 1722972507.418849, Usage: 2.95%, Memory: 46368 kB
+System Time: 1722972508.421224, Usage: 3.13%, Memory: 46368 kB
+System Time: 1722972509.422396, Usage: 2.81%, Memory: 46368 kB
+System Time: 1722972510.422901, Usage: 2.94%, Memory: 46368 kB
+System Time: 1722972511.420227, Usage: 3.2%, Memory: 46368 kB
+System Time: 1722972512.420971, Usage: 1.52%, Memory: 46368 kB
+System Time: 1722972513.426287, Usage: 1.81%, Memory: 46368 kB
+System Time: 1722972514.430746, Usage: 4.48%, Memory: 46368 kB
+System Time: 1722972515.427784, Usage: 2.98%, Memory: 46368 kB
+System Time: 1722972516.428748, Usage: 2.65%, Memory: 46368 kB
+System Time: 1722972517.429423, Usage: 2.61%, Memory: 46368 kB
+System Time: 1722972518.430547, Usage: 2.97%, Memory: 46368 kB
+System Time: 1722972519.431243, Usage: 2.63%, Memory: 46368 kB
+System Time: 1722972520.431960, Usage: 2.72%, Memory: 46368 kB
+System Time: 1722972521.437401, Usage: 2.73%, Memory: 46368 kB
+System Time: 1722972522.437917, Usage: 5.88%, Memory: 46368 kB
+System Time: 1722972523.433262, Usage: 2.67%, Memory: 46368 kB
+System Time: 1722972524.434289, Usage: 2.63%, Memory: 46368 kB
+System Time: 1722972525.441636, Usage: 1.57%, Memory: 46368 kB
+System Time: 1722972526.439355, Usage: 3.02%, Memory: 46368 kB
+System Time: 1722972527.441213, Usage: 2.41%, Memory: 46368 kB
+System Time: 1722972528.441858, Usage: 2.94%, Memory: 46368 kB
+System Time: 1722972529.443055, Usage: 2.53%, Memory: 46368 kB
+System Time: 1722972530.444116, Usage: 2.58%, Memory: 46368 kB
+System Time: 1722972531.444968, Usage: 2.59%, Memory: 46368 kB
+System Time: 1722972532.446231, Usage: 2.54%, Memory: 46368 kB
+System Time: 1722972533.451329, Usage: 2.45%, Memory: 46368 kB
+CPU Temperature: 55.372
+2024-08-06 16:29:00,670 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-08-06 16:29:00,704 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-08-06 16:29:01,930 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-08-06 16:29:04,840 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-08-06 16:29:04,843 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-08-06 16:29:05,092 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-08-06 16:29:05,378 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-08-06 16:29:05,856 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-08-06 16:30:52,490 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-06 16:31:45,544 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Probe triggered prior to movement
+2024-08-06 16:32:03,972 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Probe triggered prior to movement
+2024-08-06 16:34:48,377 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-08-06 16:34:48,393 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-08-06 16:34:49,388 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-08-06 16:34:52,535 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-08-06 16:34:52,538 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-08-06 16:34:52,786 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-08-06 16:34:53,052 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-08-06 16:34:53,538 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-08-06 16:35:00,345 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_back_2024-08-06_16:18:53.gcode
+2024-08-06 16:35:00,562 [job_state.py:_status_update()] - Job Started: Marta_GABS_back_2024-08-06_16:18:53.gcode
+2024-08-06 16:41:24,129 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_back_2024-08-06_16:18:53.gcode
+2024-08-06 16:41:24,349 [job_state.py:_status_update()] - Job Started: Marta_GABS_back_2024-08-06_16:18:53.gcode
+2024-08-06 16:50:52,551 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Endstop z still triggered after retract
+2024-08-06 16:54:02,532 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_back_2024-08-06_16:18:53.gcode
+2024-08-06 16:54:02,614 [job_state.py:_status_update()] - Job Started: Marta_GABS_back_2024-08-06_16:18:53.gcode
+2024-08-06 16:59:17,871 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-08-06 16:59:17,889 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-08-06 16:59:18,882 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-08-06 16:59:22,031 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-08-06 16:59:22,033 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-08-06 16:59:22,281 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-08-06 16:59:22,547 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-08-06 16:59:23,034 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-08-06 17:00:13,683 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_back_2024-08-06_16:18:53.gcode
+2024-08-06 17:00:13,924 [job_state.py:_status_update()] - Job Started: Marta_GABS_back_2024-08-06_16:18:53.gcode
