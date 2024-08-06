@@ -662,3 +662,24 @@ Properties:
 2024-08-05 21:17:13,098 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-08-05 21:17:13,365 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-08-05 21:17:13,849 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-08-06 10:51:47,399 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.2.135
+2024-08-06 10:52:37,444 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.2.135
+2024-08-06 10:55:07,341 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.2.183
+2024-08-06 10:55:07,504 [application.py:log_request()] - 101 GET /websocket?token=KLKGT6E7ZRWE75UOXAECFXY5ECUL3XA3 (192.168.2.183) [_TRUSTED_USER_] 5.25ms
+2024-08-06 10:55:07,507 [websockets.py:open()] - Websocket Opened: ID: 281473252843584, Proxied: False, User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15, Host Name: 192.168.2.135
+2024-08-06 10:55:07,512 [websockets.py:_handle_identify()] - Websocket 281473252843584 Client Identified - Name: fluidd, Version: 1.30.1-62fe404, Type: web
+2024-08-06 10:55:07,514 [file_manager.py:get_file_list()] - Updating File List <config>...
+2024-08-06 10:55:35,853 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Endstop z still triggered after retract
+2024-08-06 11:39:12,206 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-06 11:49:02,197 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-08-06 11:49:02,271 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-08-06 11:49:03,260 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-08-06 11:49:06,383 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-08-06 11:49:06,385 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-08-06 11:49:06,634 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-08-06 11:49:06,901 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-08-06 11:49:07,387 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-08-06 11:50:09,342 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 60.00 seconds
+2024-08-06 11:51:09,345 [klippy_connection.py:wait()] - Request 'gcode/script' pending: 120.00 seconds
+2024-08-06 11:51:44,312 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: No trigger on probe after full movement
+2024-08-06 12:51:36,821 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
