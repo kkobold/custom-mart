@@ -900,3 +900,14 @@ CPU Temperature: 55.372
 2024-08-06 16:59:23,034 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
 2024-08-06 17:00:13,683 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_back_2024-08-06_16:18:53.gcode
 2024-08-06 17:00:13,924 [job_state.py:_status_update()] - Job Started: Marta_GABS_back_2024-08-06_16:18:53.gcode
+2024-08-06 17:05:26,916 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-08-06 17:05:26,938 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-08-06 17:05:27,928 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-08-06 17:05:31,075 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-08-06 17:05:31,078 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-08-06 17:05:31,324 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-08-06 17:05:31,611 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-08-06 17:05:32,076 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor SKR Mini', 'temperature_sensor Pi', 'heater_bed', 'extruder']
+2024-08-06 17:05:41,310 [klippy_apis.py:start_print()] - Requesting Job Start, filename = Marta_GABS_back_2024-08-06_16:18:53.gcode
+2024-08-06 17:05:41,357 [job_state.py:_status_update()] - Job Started: Marta_GABS_back_2024-08-06_16:18:53.gcode
+2024-08-06 18:06:36,904 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.2.183
